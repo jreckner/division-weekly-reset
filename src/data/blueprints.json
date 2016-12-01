@@ -1,0 +1,50 @@
+[
+  {
+    "type":   "blueprint",
+    "name":   "MP7",
+    "score":  "256",
+    "price":  "PxC 915"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "M870 Express",
+    "score":  "256",
+    "price":  "PxC 998"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "Firearms Chest",
+    "score":  "256",
+    "price":  "PxC 665"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "Electronics Backpack",
+    "score":  "256",
+    "price":  "PxC 665"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "Compensator<br/>Stability, Random, Random",
+    "score":  "34",
+    "price":  "PxC 200"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "Vertical Grip - Foliage Green<br/>Optimal Range, Random, Random",
+    "score":  "34",
+    "price":  "PxC 200"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "Firearms Mod",
+    "score":  "34",
+    "price":  "PxC 192"
+  },
+  {
+    "type":   "blueprint",
+    "name":   "Electronics Mod",
+    "score":  "34",
+    "price":  "PxC 192"
+  }
+]

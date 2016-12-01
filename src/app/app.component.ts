@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  private title: string = 'TEMPLATE';
-  private content: string = 'Hello World .... again.';
 }

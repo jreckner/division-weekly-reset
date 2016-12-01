@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './header.component.html'
 })
 export class HeaderComponent {
-  private title: string = 'TEMPLATE';
+  private title: string = 'The Division: Weekly Vendor Reset';
 };

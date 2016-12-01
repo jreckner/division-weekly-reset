@@ -1,0 +1,182 @@
+[
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "Autumn's Hope",
+    "score":  "256",
+    "name":   "Prosperous pads",
+    "armor":  "2,788",
+    "price":  "$ 890,304",
+    "fire":   "1141",
+    "stam":   "-",
+    "elec":   "-",
+    "major":  "1,202 Armor",
+    "minor":  "32% Bleed Resistance<br/>32% Blind/Deaf Resistance<br/>49% Increased Kill XP"
+  },
+  {
+    "type":       "gear-mod",
+    "name":       "Performance Mod",
+    "vendor":     "Autumn's Hope",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "4.5% Smart Cover duration"
+  },
+
+  {
+    "type":     "weapon",
+    "vendor":   "Wolves Den",
+    "score":    "256",
+    "name":     "Enhanced ACR-E",
+    "price":    "$ 1.669,320",
+    "bonus":    "22% Enemy Armor Damage",
+    "dmg":      "14.4k",
+    "rpm":      "760",
+    "mag":      "30",
+    "talent1":  "Adept",
+    "talent2":  "Meticulous",
+    "talent3":  "Dominant"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "Wolves Den",
+    "name":       "Small Grip",
+    "price":      "$ 174,722",
+    "attributes": "17% Critical Hit Damage<br/>4.5% Reload Speed<br/>2% Accuracy"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "Dante's Run",
+    "score":  "256",
+    "name":   "Reckless chest",
+    "armor":  "2,035",
+    "price":  "$ 1.112.880",
+    "fire":   "-",
+    "stam":   "1210",
+    "elec":   "-",
+    "major":  "4% Health on Kill<br/>7% Protection from Elites",
+    "minor":  "25% Increased Kill XP"
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "Dante's Run",
+    "name":       "Performance Mod",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "6.5% Turret health"
+  },
+
+  {
+    "type":     "weapon",
+    "vendor":   "Kerman Station",
+    "score":    "256",
+    "name":     "Px4 Storm Type T",
+    "price":    "$ 1.335,456",
+    "bonus":    "-",
+    "dmg":      "14.4k",
+    "rpm":      "450",
+    "mag":      "17",
+    "talent1":  "Expert",
+    "talent2":  "Coolheaded",
+    "talent3":  "-"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "Kerman Station",
+    "name":       "Angled grip - Red",
+    "price":      "$ 174,722",
+    "attributes": "12.5% Stability<br/>4.5% Optimal Range<br/>5% Reload Speed"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "The Cavern",
+    "score":  "256",
+    "name":   "Steadfast holster",
+    "armor":  "985",
+    "price":  "$ 779,016",
+    "fire":   "1160",
+    "stam":   "1166",
+    "elec":   "1200",
+    "major":  "5% Skill Haste",
+    "minor":  ""
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "The Cavern",
+    "name":       "Electronics Mod",
+    "stat":       "240 ELE",
+    "price":      "$ 168,044",
+    "attribute":  "3,164 Skill Power"
+  },
+
+  {
+    "type":     "weapon",
+    "vendor":   "The Meat Locker",
+    "score":    "256",
+    "name":     "Famas",
+    "price":    "$ 1.669,320",
+    "bonus":    "20% Enemy Armor Damage",
+    "dmg":      "12.4k",
+    "rpm":      "900",
+    "mag":      "30",
+    "talent1":  "Destructive",
+    "talent2":  "Unforgiving",
+    "talent3":  "Uncomplicated"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "The Meat Locker",
+    "name":       "Small Grip",
+    "price":      "$ 174,722",
+    "attributes": "19% Critical Hit Damage<br/>4.5% Optimal Range<br/>2% Accuracy"
+  },
+
+  {
+    "type":     "weapon",
+    "vendor":   "Camp Hudson Weapon Vendor",
+    "score":    "256",
+    "name":     "Tactical UMP-45",
+    "price":    "$ 1.669,320",
+    "bonus":    "36% Critical Hit Damage",
+    "dmg":      "16.4",
+    "rpm":      "600",
+    "mag":      "30",
+    "talent1":  "Sustained",
+    "talent2":  "Swift",
+    "talent3":  "Ambusher"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "Camp Hudson Weapon Vendor",
+    "name":       "Muzzle Brake",
+    "price":      "$ 174,722",
+    "attributes": "13% Stability<br/>4% Critial Hit Damage<br/>3% Critical Hit Chance"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "Camp Hudson Gear Vendor",
+    "score":  "256",
+    "name":   "Recovered Holster",
+    "armor":  "1,519",
+    "price":  "$ 779,016",
+    "fire":   "1239",
+    "stam":   "1220",
+    "elec":   "1164",
+    "major":  "4% Protection from Elites",
+    "minor":  "-"
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "Camp Hudson Gear Vendor",
+    "name":       "Electronics Mod",
+    "stat":       "262 ELE",
+    "price":      "$ 168,044",
+    "attribute":  "1% Critical Hit Chance"
+  }
+
+]

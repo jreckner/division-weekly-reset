@@ -1,0 +1,160 @@
+[
+  {
+    "type":     "weapon",
+    "vendor":   "The Crypt",
+    "score":    "256",
+    "name":     "Tactical SASG-12 K",
+    "price":    "$ 1.669,320",
+    "bonus":    "342% Stagger",
+    "dmg":      "73.3k",
+    "rpm":      "180",
+    "mag":      "7",
+    "talent1":  "Destructive",
+    "talent2":  "Competent",
+    "talent3":  "Trained"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "The Crypt",
+    "name":       "ACOG Scope (4x) - FDE",
+    "price":      "$ 174,722",
+    "attributes": "16% Accuracy<br/>5.5% Headshot Damage<br/>4% Critical Hit Damage"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "The Firewall",
+    "score":  "256",
+    "name":   "Astute gloves",
+    "armor":  "981",
+    "price":  "$ 890,304",
+    "fire":   "-",
+    "stam":   "-",
+    "elec":   "1145",
+    "major":  "10% Damage to Elites<br/>5.5% Critical Hit Chance<br/>1,289 Shotgun Damage",
+    "minor":  "-"
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "The Firewall",
+    "name":       "Performance Mod",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "2% Pulse Critical Hit Damage"
+  },
+
+  {
+    "type":     "weapon",
+    "vendor":   "The Grindhouse",
+    "score":    "256",
+    "name":     "Black Market AK-74",
+    "price":    "$ 1.669,320",
+    "bonus":    "20% Enemy Armor Damage",
+    "dmg":      "18.8k",
+    "rpm":      "600",
+    "mag":      "30",
+    "talent1":  "Vicious",
+    "talent2":  "Determined",
+    "talent3":  "Deadly"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "The Grindhouse",
+    "name":       "Large Suppressor - FDE",
+    "price":      "$ 174,722",
+    "attributes": "16% Critical Hit Damage<br/>3% Critical Hit Chance<br/>2.5% Stability<br/>47% Reduced Threat"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "Southpaw",
+    "score":  "256",
+    "name":   "Robust chest",
+    "armor":  "1,857",
+    "price":  "$ 1,112,880",
+    "fire":   "-",
+    "stam":   "1214",
+    "elec":   "-",
+    "major":  "4% Health on Kill<br/>7% Damage to Elites",
+    "minor":  "54% Ammo Capacity"
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "Southpaw",
+    "name":       "Firearms Mod",
+    "stat":       "251 FA",
+    "price":      "$ 168,044",
+    "attribute":  "3% Skill Haste"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "The Ward",
+    "score":  "256",
+    "name":   "Resourceful backpack",
+    "armor":  "1,152",
+    "price":  "$ 1.112,880",
+    "fire":   "-",
+    "stam":   "1195",
+    "elec":   "-",
+    "major":  "6% Skill Haste",
+    "minor":  "17% Disrupt Resistance"
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "The Ward",
+    "name":       "Performance Mod",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "6.5% Turret Health"
+  },
+
+  {
+    "type":     "weapon",
+    "vendor":   "The Last Call",
+    "score":    "256",
+    "name":     "SOCOM M1A",
+    "price":    "$ 1.669,320",
+    "bonus":    "160% Headshot Damage",
+    "dmg":      "44.5k",
+    "rpm":      "300",
+    "mag":      "10",
+    "talent1":  "Proficient",
+    "talent2":  "Cooheaded",
+    "talent3":  "Intense"
+  },
+  {
+    "type":       "weapon-mod",
+    "vendor":     "The Last Call",
+    "name":       "Extended Magazine",
+    "price":      "$ 168,044",
+    "attributes": "109% Magazine Size<br/>3% Critical Hit Chance<br/>4.5% Reload Speed"
+  },
+
+  {
+    "type":   "gear",
+    "rarity": "header-he",
+    "vendor": "Madison's Stand",
+    "score":  "256",
+    "name":   "Resourceful backpack",
+    "armor":  "1,240",
+    "price":  "$ 1,112,880",
+    "fire":   "1124",
+    "stam":   "-",
+    "elec":   "-",
+    "major":  "11,999 Skill Power",
+    "minor":  "16% Disrupt Resistance"
+  },
+  {
+    "type":       "gear-mod",
+    "vendor":     "Madison's Stand",
+    "name":       "Performance Mod",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "2% Pulse Critical Hit Chance"
+  }
+
+]

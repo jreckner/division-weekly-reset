@@ -25,7 +25,7 @@ const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
  */
 const HMR = helpers.hasProcessFlag('hot');
 const METADATA = {
-  title: 'TEMPLATE',
+  title: 'The Division: Weekly Vendor Reset',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };
@@ -206,6 +206,7 @@ module.exports = function (options) {
        * See: https://www.npmjs.com/package/copy-webpack-plugin
        */
       new CopyWebpackPlugin([
+        { from: 'src/data', to: 'division' },
         { from: 'src/assets', to: 'assets' },
         { from: 'src/meta'}
       ]),

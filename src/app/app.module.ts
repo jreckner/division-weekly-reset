@@ -17,13 +17,19 @@ import { APP_ROUTER } from './app.routes';
 // internal components
 import { FooterComponent } from './components/footer.component';
 import { HeaderComponent } from './components/header.component';
+import { DivisionBlueprintsComponent } from './components/division-blueprints.component';
+import { DivisionItemsComponent } from './components/division-items.component';
+
+import { WeeklyResetDataService } from './components/weekly-reset-data.service';
 
 @NgModule({
   bootstrap: [AppComponent],
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    DivisionBlueprintsComponent,
+    DivisionItemsComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +39,8 @@ import { HeaderComponent } from './components/header.component';
     APP_ROUTER
   ],
   providers: [
-    ENV_PROVIDERS
+    ENV_PROVIDERS,
+    WeeklyResetDataService
   ]
 })
 export class AppModule {}
