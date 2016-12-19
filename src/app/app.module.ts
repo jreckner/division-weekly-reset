@@ -18,7 +18,7 @@ import { APP_ROUTER } from './app.routes';
 import { FooterComponent } from './components/footer.component';
 import { HeaderComponent } from './components/header.component';
 import { DivisionBlueprintsComponent } from './components/division-blueprints.component';
-import { DivisionItemsComponent } from './components/division-items.component';
+import { DivisionGearComponent } from './components/division-items/division-gear.component';
 
 import { WeeklyResetDataService } from './components/weekly-reset-data.service';
 
@@ -29,7 +29,7 @@ import { WeeklyResetDataService } from './components/weekly-reset-data.service';
     HeaderComponent,
     FooterComponent,
     DivisionBlueprintsComponent,
-    DivisionItemsComponent
+    DivisionGearComponent
   ],
   imports: [
     BrowserModule,

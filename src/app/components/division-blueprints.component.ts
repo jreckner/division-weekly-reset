@@ -7,6 +7,7 @@ import { WeeklyResetDataService } from './weekly-reset-data.service';
 })
 export class DivisionBlueprintsComponent {
 
+
   title:string = 'Blueprints';
 
   blueprints;
