@@ -4,21 +4,21 @@
     "vendor":   "The Crypt",
     "score":    "256",
     "name":     "Tactical SASG-12 K",
-    "price":    "$ 1.669,320",
-    "bonus":    "342% Stagger",
-    "dmg":      "73.3k",
+    "price":    "$ 1,669,320",
+    "bonus":    "330.50% Stagger",
+    "dmg":      "86.8k",
     "rpm":      "180",
     "mag":      "7",
-    "talent1":  "Destructive",
-    "talent2":  "Competent",
-    "talent3":  "Trained"
+    "talent1":  "Dominant",
+    "talent2":  "Trained",
+    "talent3":  "Fierce"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "The Crypt",
-    "name":       "ACOG Scope (4x) - FDE",
+    "name":       "Compensator",
     "price":      "$ 174,722",
-    "attributes": "16% Accuracy<br/>5.5% Headshot Damage<br/>4% Critical Hit Damage"
+    "attributes": "12.5% Stability<br/>5.5% Headshot Damage<br/>2% Accuracy"
   },
 
   {
@@ -26,14 +26,14 @@
     "rarity": "header-he",
     "vendor": "The Firewall",
     "score":  "256",
-    "name":   "Astute gloves",
-    "armor":  "981",
-    "price":  "$ 890,304",
+    "name":   "Rapid Chest",
+    "armor":  "1936",
+    "price":  "$ 1,112,880",
     "fire":   "-",
     "stam":   "-",
-    "elec":   "1145",
-    "major":  "10% Damage to Elites<br/>5.5% Critical Hit Chance<br/>1,289 Shotgun Damage",
-    "minor":  "-"
+    "elec":   "1265",
+    "major":  "5,951 Health<br/>6% Protection from Elites",
+    "minor":  "27% Increased Kill XP"
   },
   {
     "type":       "gear-mod",
@@ -41,29 +41,29 @@
     "name":       "Performance Mod",
     "stat":       "-",
     "price":      "$ 168,044",
-    "attribute":  "2% Pulse Critical Hit Damage"
+    "attribute":  "5% First Aid Ally Heal"
   },
 
   {
     "type":     "weapon",
     "vendor":   "The Grindhouse",
     "score":    "256",
-    "name":     "Black Market AK-74",
-    "price":    "$ 1.669,320",
-    "bonus":    "20% Enemy Armor Damage",
-    "dmg":      "18.8k",
-    "rpm":      "600",
-    "mag":      "30",
-    "talent1":  "Vicious",
-    "talent2":  "Determined",
-    "talent3":  "Deadly"
+    "name":     "Military SCAR-H",
+    "price":    "$ 1,669,320",
+    "bonus":    "144% Headshot Damage",
+    "dmg":      "57.2k",
+    "rpm":      "275",
+    "mag":      "20",
+    "talent1":  "Ferocious",
+    "talent2":  "Deadly",
+    "talent3":  "Toxic"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "The Grindhouse",
     "name":       "Large Suppressor - FDE",
     "price":      "$ 174,722",
-    "attributes": "16% Critical Hit Damage<br/>3% Critical Hit Chance<br/>2.5% Stability<br/>47% Reduced Threat"
+    "attributes": "16% Critical Hit Damage<br/>3% Critical Hit Chance<br/>5.5% Headshot Damage<br/>"
   },
 
   {
@@ -71,22 +71,22 @@
     "rarity": "header-he",
     "vendor": "Southpaw",
     "score":  "256",
-    "name":   "Robust chest",
-    "armor":  "1,857",
-    "price":  "$ 1,112,880",
+    "name":   "Prosperous Knee Pads",
+    "armor":  "1637",
+    "price":  "$ 890,304",
     "fire":   "-",
-    "stam":   "1214",
+    "stam":   "1141",
     "elec":   "-",
-    "major":  "4% Health on Kill<br/>7% Damage to Elites",
-    "minor":  "54% Ammo Capacity"
+    "major":  "7% Critical Hit Damage<br/>",
+    "minor":  "30% Bleed Resistance<br/>28% Burn Resistance<br/>32% Shock Resistance<br/>"
   },
   {
     "type":       "gear-mod",
     "vendor":     "Southpaw",
-    "name":       "Firearms Mod",
-    "stat":       "251 FA",
+    "name":       "Electronics Mod",
+    "stat":       "262",
     "price":      "$ 168,044",
-    "attribute":  "3% Skill Haste"
+    "attribute":  "2.5% Exotic Damage Resilience"
   },
 
   {
@@ -94,14 +94,14 @@
     "rarity": "header-he",
     "vendor": "The Ward",
     "score":  "256",
-    "name":   "Resourceful backpack",
-    "armor":  "1,152",
-    "price":  "$ 1.112,880",
-    "fire":   "-",
-    "stam":   "1195",
+    "name":   "Prosperous Knee Pads",
+    "armor":  "1590",
+    "price":  "$ 890,304",
+    "fire":   "1117",
+    "stam":   "-",
     "elec":   "-",
-    "major":  "6% Skill Haste",
-    "minor":  "17% Disrupt Resistance"
+    "major":  "4% Protection From Elites",
+    "minor":  "53% Increased Kill XP<br/>31% Blind/Deaf Resistance<br/>29% Disrupt Resistance<br/>"
   },
   {
     "type":       "gear-mod",
@@ -109,29 +109,29 @@
     "name":       "Performance Mod",
     "stat":       "-",
     "price":      "$ 168,044",
-    "attribute":  "6.5% Turret Health"
+    "attribute":  "5.5% Sticky Bomb explosion radius"
   },
 
   {
     "type":     "weapon",
     "vendor":   "The Last Call",
     "score":    "256",
-    "name":     "SOCOM M1A",
-    "price":    "$ 1.669,320",
-    "bonus":    "160% Headshot Damage",
-    "dmg":      "44.5k",
-    "rpm":      "300",
-    "mag":      "10",
-    "talent1":  "Proficient",
-    "talent2":  "Cooheaded",
-    "talent3":  "Intense"
+    "name":     "Tactical AUG A3P",
+    "price":    "$ 1,669,320",
+    "bonus":    "33% Critical Hit Damage",
+    "dmg":      "16.6k",
+    "rpm":      "725",
+    "mag":      "25",
+    "talent1":  "Commanding",
+    "talent2":  "Brutal",
+    "talent3":  "Deadly"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "The Last Call",
-    "name":       "Extended Magazine",
-    "price":      "$ 168,044",
-    "attributes": "109% Magazine Size<br/>3% Critical Hit Chance<br/>4.5% Reload Speed"
+    "name":       "PRO Red Dot Sight",
+    "price":      "$ 174,722",
+    "attributes": "18% Critical Hit Damage<br/>2% Accuracy<br/>4.5% Optimal Range"
   },
 
   {
@@ -139,22 +139,22 @@
     "rarity": "header-he",
     "vendor": "Madison's Stand",
     "score":  "256",
-    "name":   "Resourceful backpack",
-    "armor":  "1,240",
-    "price":  "$ 1,112,880",
-    "fire":   "1124",
+    "name":   "Refreshed Mask",
+    "armor":  "852",
+    "price":  "$ 1,001,592",
+    "fire":   "1252",
     "stam":   "-",
     "elec":   "-",
-    "major":  "11,999 Skill Power",
-    "minor":  "16% Disrupt Resistance"
+    "major":  "4% Health on Kill",
+    "minor":  "14% Blind/Deaf Resistance"
   },
   {
     "type":       "gear-mod",
     "vendor":     "Madison's Stand",
-    "name":       "Performance Mod",
-    "stat":       "-",
+    "name":       "Stamina Mod",
+    "stat":       "257",
     "price":      "$ 168,044",
-    "attribute":  "2% Pulse Critical Hit Chance"
+    "attribute":  "2.5% Exotic Damage Resilience"
   }
 
 ]
