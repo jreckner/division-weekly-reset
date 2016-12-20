@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html'
 })
 export class FooterComponent {
-  appVersion: string = '0.1.0';
+  appVersion: string = '0.2.0';
 };
