@@ -1,0 +1,68 @@
+<h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
+<div [collapse]="isCollapsed" >
+  <div class="well">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="custom-search-input" class="col-xs-3 pull-right">
+          <div class="input-group input-group-sm">
+            <input #box type="text" class="search-query form-control" placeholder="Search" (keyup.enter)="filterKeyword(box.value)" />
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" (click)="filterKeyword(box.value)">
+                <span class=" glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div *ngFor="let weapon of getWeapons()">
+          <div class="col-md-3" *ngIf="isFiltered(weapon)">
+            <div class="project" [ngClass]="getRarity(weapon)">
+              <div class="shape">
+                <div class="shape-text"></div>
+              </div>
+              <div class="project-content" style='height:25em'>
+                <h4 class="lead">
+                  {{weapon.name}}
+                </h4>
+                <table class="table table-bordered table-striped table-sm">
+                  <tr><td class="cell-high text-center" colspan="3">{{weapon.vendor}}</td></tr>
+                  <tr>
+                    <td style="text-align: center;" colspan="1">Score</td>
+                    <td style="text-align: center;" colspan="2">Price</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;" colspan="1">{{weapon.score}}</td>
+                    <td style="text-align: center;" colspan="2">{{weapon.price}}</td>
+                  </tr>
+                  <tr><td style="text-align: center;" colspan="3">{{weapon.bonus}}</td></tr>
+                  <tr>
+                    <td style="text-align: center;">DMG</td>
+                    <td style="text-align: center;">RPM</td>
+                    <td style="text-align: center;">MAG</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;">{{weapon.dmg}}</td>
+                    <td style="text-align: center;">{{weapon.rpm}}</td>
+                    <td style="text-align: center;">{{weapon.mag}}</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;">{{weapon.talent1}}</td>
+                    <td style="text-align: center;">{{weapon.talent2}}</td>
+                    <td style="text-align: center;">{{weapon.talent3}}</td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div [collapse]="!isCollapsed" >
+  <div class="well">
+    <h4>Weapons: {{getWeapons().length}}</h4>
+  </div>
+</div>

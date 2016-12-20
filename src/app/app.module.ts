@@ -17,10 +17,15 @@ import { APP_ROUTER } from './app.routes';
 // internal components
 import { FooterComponent } from './components/footer.component';
 import { HeaderComponent } from './components/header.component';
-import { DivisionBlueprintsComponent } from './components/division-blueprints.component';
-import { DivisionGearComponent } from './components/division-items/division-gear.component';
 
-import { WeeklyResetDataService } from './components/weekly-reset-data.service';
+import { DivisionBlueprintsComponent } from './components/division-blueprints/division-blueprints.component';
+import { DivisionGearComponent } from './components/division-items/division-gear.component';
+import { DivisionGearModsComponent } from "./components/division-items/division-gear-mods.component";
+import { DivisionWeaponsComponent } from "./components/division-items/division-weapons.component";
+import { DivisionWeaponsModsComponent } from "./components/division-items/division-weapon-mods.component";
+
+import { WeeklyResetDataService } from './services/weekly-reset-data.service';
+import { DivisionItemsService } from './components/division-items/division-items.service';
 
 @NgModule({
   bootstrap: [AppComponent],
@@ -29,7 +34,10 @@ import { WeeklyResetDataService } from './components/weekly-reset-data.service';
     HeaderComponent,
     FooterComponent,
     DivisionBlueprintsComponent,
-    DivisionGearComponent
+    DivisionGearComponent,
+    DivisionGearModsComponent,
+    DivisionWeaponsComponent,
+    DivisionWeaponsModsComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +48,8 @@ import { WeeklyResetDataService } from './components/weekly-reset-data.service';
   ],
   providers: [
     ENV_PROVIDERS,
-    WeeklyResetDataService
+    WeeklyResetDataService,
+    DivisionItemsService
   ]
 })
 export class AppModule {}

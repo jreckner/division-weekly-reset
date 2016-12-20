@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { WeeklyResetDataService } from './weekly-reset-data.service';
+import { WeeklyResetDataService } from '../../services/weekly-reset-data.service';
 
 @Component({
   selector: 'division-blueprints',
-  templateUrl: './division-blueprints.component.html'
+  templateUrl: 'division-blueprints.component.html'
 })
 export class DivisionBlueprintsComponent {
 

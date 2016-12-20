@@ -1,0 +1,48 @@
+<h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
+<div [collapse]="isCollapsed" >
+  <div class="well">
+    <div class="container-fluid">
+      <div class="row">
+        <div id="custom-search-input" class="col-xs-3 pull-right">
+          <div class="input-group input-group-sm">
+            <input #box type="text" class="search-query form-control" placeholder="Search" (keyup.enter)="filterKeyword(box.value)" />
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button" (click)="filterKeyword(box.value)">
+                <span class=" glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div *ngFor="let mod of getGearMods()">
+          <div class="col-md-3" *ngIf="isFiltered(mod)">
+            <div class="project" [ngClass]="getRarity(mod)">
+              <div class="shape">
+                <div class="shape-text"></div>
+              </div>
+              <div class="project-content" style='height:15em'>
+                <h4 class="lead">
+                  {{mod.name}}
+                </h4>
+                <table class="table table-bordered table-striped table-sm">
+                  <tr><td class="cell-high text-center" colspan="3">{{mod.vendor}}</td></tr>
+                  <tr>
+                    <td style="text-align: center;" colspan="1">{{mod.stat}}</td>
+                    <td style="text-align: center;" colspan="2">{{mod.price}}</td>
+                  </tr>
+                  <tr><td data-content='attribute' style="text-align: center;" colspan="3">{{mod.attribute}}</td></tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div [collapse]="!isCollapsed" >
+  <div class="well">
+    <h4>Weapon Mods: {{getGearMods().length}}</h4>
+  </div>
+</div>

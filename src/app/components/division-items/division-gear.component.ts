@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { WeeklyResetDataService } from '../weekly-reset-data.service';
+import { WeeklyResetDataService } from '../../services/weekly-reset-data.service';
 import { GearMod } from '../../models/gear-mod.model';
 import { WeaponMod } from "../../models/weapon-mod.model";
 import { Weapon } from "../../models/weapon.model";
@@ -328,7 +328,6 @@ export class DivisionGearComponent {
   }
 
   filterKeyword(keyword) {
-    console.log(`Filtering: ${keyword}`);
     this.filteredKeyword = keyword
   }
 
