@@ -1,8 +1,9 @@
-# angular2-template
+# The Division Weekly Reset Vendor UI
 
 ----
-Template UI for [angular2-template](https://github.com/jreckner/angular2-ui)
+An angular2 and Bootstrap website skin for [The Division: Weekly Vendor Reset](http://rubenalamina.mx/the-division-weekly-vendor-reset/) website.
 
+Check out the [live demo](https://recknerd.com)
 ___
 
 # License
