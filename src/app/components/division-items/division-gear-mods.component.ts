@@ -38,4 +38,8 @@ export class DivisionGearModsComponent {
     this.filteredKeyword = keyword
   }
 
+  clearFilter() {
+    this.filteredKeyword = ''
+  }
+
 };

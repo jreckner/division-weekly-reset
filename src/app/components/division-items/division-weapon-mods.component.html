@@ -13,6 +13,9 @@
             </span>
           </div>
         </div>
+        <button class="btn-danger btn-sm pull-right top-buffer-10 right-buffer-5"
+                type="button" *ngIf="filteredKeyword != ''" (click)="box.value = ''; clearFilter()">Clear Filter
+        </button>
       </div>
       <div class="row">
         <div *ngFor="let mod of getWeaponMods()">

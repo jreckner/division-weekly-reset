@@ -41,4 +41,8 @@ export class DivisionWeaponsComponent {
     this.filteredKeyword = keyword
   }
 
+  clearFilter() {
+    this.filteredKeyword = ''
+  }
+
 };

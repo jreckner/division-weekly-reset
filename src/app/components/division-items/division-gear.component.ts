@@ -366,4 +366,8 @@ export class DivisionGearComponent {
 
   }
 
+  clearFilter() {
+    this.filteredKeyword = ''
+  }
+
 };
