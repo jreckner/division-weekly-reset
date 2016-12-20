@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
   selector: 'footer',
   templateUrl: './footer.component.html'
 })
-export class FooterComponent { };
+export class FooterComponent {
+  appVersion: string = '0.1.0';
+};

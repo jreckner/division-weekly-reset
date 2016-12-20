@@ -26,6 +26,7 @@ const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const HMR = helpers.hasProcessFlag('hot');
 const METADATA = {
   title: 'The Division: Weekly Vendor Reset',
+  theme: 'slate',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };
@@ -223,6 +224,7 @@ module.exports = function (options) {
       new HtmlWebpackPlugin({
         template: 'src/index.html',
         title: METADATA.title,
+        bootstrapTheme: METADATA.theme,
         chunksSortMode: 'dependency',
         metadata: METADATA,
         inject: 'head'
