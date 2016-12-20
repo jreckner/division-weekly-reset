@@ -3,7 +3,7 @@
   <div class="well">
     <div class="container-fluid">
       <div class="row">
-        <div id="custom-search-input" class="col-xs-3 pull-right">
+        <div id="custom-search-input" class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pull-right">
           <div class="input-group input-group-sm">
             <input #box type="text" class="search-query form-control" placeholder="Search" (keyup.enter)="filterKeyword(box.value)" />
             <span class="input-group-btn">
@@ -16,7 +16,7 @@
       </div>
       <div class="row">
         <div *ngFor="let mod of getWeaponMods()">
-          <div class="col-md-3" *ngIf="isFiltered(mod)">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12" *ngIf="isFiltered(mod)">
             <div class="project" [ngClass]="getRarity(mod)">
               <div class="shape">
                 <div class="shape-text"></div>

@@ -17,6 +17,7 @@ import { APP_ROUTER } from './app.routes';
 // internal components
 import { FooterComponent } from './components/footer.component';
 import { HeaderComponent } from './components/header.component';
+import { AboutComponent } from './components/about.component';
 
 import { DivisionBlueprintsComponent } from './components/division-blueprints/division-blueprints.component';
 import { DivisionGearComponent } from './components/division-items/division-gear.component';
@@ -33,6 +34,7 @@ import { DivisionItemsService } from './components/division-items/division-items
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    AboutComponent,
     DivisionBlueprintsComponent,
     DivisionGearComponent,
     DivisionGearModsComponent,

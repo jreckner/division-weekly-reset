@@ -115,3 +115,7 @@
 .search-query:focus + button {
   z-index: 3;
 }
+
+.top-buffer-20 { margin-top:20px; }
+
+.bottom-buffer-20 { margin-bottom:20px; }

@@ -8,6 +8,7 @@ import { DivisionGearComponent } from "./components/division-items/division-gear
 import { DivisionGearModsComponent } from "./components/division-items/division-gear-mods.component";
 import { DivisionWeaponsComponent } from "./components/division-items/division-weapons.component";
 import { DivisionWeaponModsComponent } from "./components/division-items/division-weapon-mods.component";
+import { AboutComponent } from "./components/about.component";
 
 export const APP_ROUTES: Routes = [
   {
@@ -34,6 +35,10 @@ export const APP_ROUTES: Routes = [
   {
     path: 'weaponmods',
     component: DivisionWeaponModsComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   }
 ];
 
