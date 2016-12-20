@@ -6,7 +6,7 @@ import { WeaponMod } from "../../models/weapon-mod.model";
   selector: 'division-weapon-mods',
   templateUrl: './division-weapon-mods.component.html'
 })
-export class DivisionWeaponsModsComponent {
+export class DivisionWeaponModsComponent {
 
   title: string = 'Weapon Mods';
 

@@ -1,79 +1,81 @@
-<div>
-  <div class="btn-toolbar pull-right">
-    <div class="btn-group btn-group-sm" role="group">
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterHE()" [ngClass]="isFilteredHE ? 'btn-danger' : 'btn-success'">High Ends</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('alpha')" [ngClass]="isFilteredAlpha ? 'btn-danger' : 'btn-success'">AlphaBridge</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('banshee')" [ngClass]="isFilteredBanshee ? 'btn-danger' : 'btn-success'">Banshee</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('dead')" [ngClass]="isFilteredDead ? 'btn-danger' : 'btn-success'">DeadEYE</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('final')" [ngClass]="isFilteredFinal ? 'btn-danger' : 'btn-success'">Final Measure</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('fire')" [ngClass]="isFilteredFire ? 'btn-danger' : 'btn-success'">FireCrest</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('front')" [ngClass]="isFilteredFront ? 'btn-danger' : 'btn-success'">FrontLine</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('hunter')" [ngClass]="isFilteredHunter ? 'btn-danger' : 'btn-success'">Hunter's Faith</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('lone')" [ngClass]="isFilteredLone ? 'btn-danger' : 'btn-success'">Lone Star</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('nomad')" [ngClass]="isFilteredNomad ? 'btn-danger' : 'btn-success'">Path of the Nomad</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('pred')" [ngClass]="isFilteredPred ? 'btn-danger' : 'btn-success'">Predator's Mark</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('reclaimer')" [ngClass]="isFilteredReclaim ? 'btn-danger' : 'btn-success'">Reclaimer</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('sentry')" [ngClass]="isFilteredSentry ? 'btn-danger' : 'btn-success'">Sentry's Call</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('striker')" [ngClass]="isFilteredStriker ? 'btn-danger' : 'btn-success'">Strikers Battlegear</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('tact')" [ngClass]="isFilteredTact ? 'btn-danger' : 'btn-success'">Tacticians Authority</button>
+<div class="container-fluid">
+  <div>
+    <div class="btn-toolbar pull-right">
+      <div class="btn-group btn-group-sm" role="group">
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterHE()" [ngClass]="isFilteredHE ? 'btn-danger' : 'btn-success'">High Ends</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('alpha')" [ngClass]="isFilteredAlpha ? 'btn-danger' : 'btn-success'">AlphaBridge</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('banshee')" [ngClass]="isFilteredBanshee ? 'btn-danger' : 'btn-success'">Banshee</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('dead')" [ngClass]="isFilteredDead ? 'btn-danger' : 'btn-success'">DeadEYE</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('final')" [ngClass]="isFilteredFinal ? 'btn-danger' : 'btn-success'">Final Measure</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('fire')" [ngClass]="isFilteredFire ? 'btn-danger' : 'btn-success'">FireCrest</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('front')" [ngClass]="isFilteredFront ? 'btn-danger' : 'btn-success'">FrontLine</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('hunter')" [ngClass]="isFilteredHunter ? 'btn-danger' : 'btn-success'">Hunter's Faith</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('lone')" [ngClass]="isFilteredLone ? 'btn-danger' : 'btn-success'">Lone Star</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('nomad')" [ngClass]="isFilteredNomad ? 'btn-danger' : 'btn-success'">Path of the Nomad</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('pred')" [ngClass]="isFilteredPred ? 'btn-danger' : 'btn-success'">Predator's Mark</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('reclaimer')" [ngClass]="isFilteredReclaim ? 'btn-danger' : 'btn-success'">Reclaimer</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('sentry')" [ngClass]="isFilteredSentry ? 'btn-danger' : 'btn-success'">Sentry's Call</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('striker')" [ngClass]="isFilteredStriker ? 'btn-danger' : 'btn-success'">Strikers Battlegear</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('tact')" [ngClass]="isFilteredTact ? 'btn-danger' : 'btn-success'">Tacticians Authority</button>
+      </div>
     </div>
+    <h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
   </div>
-  <h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
-</div>
-<div [collapse]="isCollapsed" >
-  <div class="well">
-    <div class="container-fluid">
-      <div class="row">
-        <div id="custom-search-input" class="col-xs-3 pull-right">
-          <div class="input-group input-group-sm">
-            <input #box type="text" class="search-query form-control" placeholder="Search" (keyup.enter)="filterKeyword(box.value)" />
-            <span class="input-group-btn">
-              <button class="btn btn-danger" type="button" (click)="filterKeyword(box.value)">
-                <span class=" glyphicon glyphicon-search"></span>
-              </button>
-            </span>
+  <div [collapse]="isCollapsed" >
+    <div class="well">
+      <div class="container-fluid">
+        <div class="row">
+          <div id="custom-search-input" class="col-xs-3 pull-right">
+            <div class="input-group input-group-sm">
+              <input #box type="text" class="search-query form-control" placeholder="Search" (keyup.enter)="filterKeyword(box.value)" />
+              <span class="input-group-btn">
+                <button class="btn btn-danger" type="button" (click)="filterKeyword(box.value)">
+                  <span class=" glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div *ngFor="let gearItem of gear">
-          <div class="col-md-3" *ngIf="isFiltered(gearItem)">
-            <div class="project" [ngClass]="getRarity(gearItem)">
-              <div class="shape">
-                <div class="shape-text"></div>
-              </div>
-              <div class="project-content" style='height:32em'>
-                <h4 class="lead">
-                  {{gearItem.name}}
-                </h4>
-                <table class="table table-bordered table-striped table-sm">
-                  <tr><td class="cell-high text-center" colspan="3">{{gearItem.vendor}}</td></tr>
-                  <tr>
-                    <td style="text-align: center;">Score</td>
-                    <td style="text-align: center;">Armor</td>
-                    <td style="text-align: center;">Price</td>
-                  </tr>
-                  <tr>
-                    <td style="text-align: center;">{{gearItem.score}}</td>
-                    <td style="text-align: center;">{{gearItem.armor}}</td>
-                    <td style="text-align: center;">{{gearItem.price}}</td>
-                  </tr>
-                  <tr>
-                    <td style="text-align: center;">Firearms</td>
-                    <td style="text-align: center;">Stamina</td>
-                    <td style="text-align: center;">Electronics</td>
-                  </tr>
-                  <tr>
-                    <td style="text-align: center;">{{gearItem.fire}}</td>
-                    <td style="text-align: center;">{{gearItem.stam}}</td>
-                    <td style="text-align: center;">{{gearItem.elec}}</td>
-                  </tr>
-                  <tr><td colspan="3">Major Attributes:</td></tr>
-                  <tr><td colspan="3"><div style="margin-left: 40px;" [innerHTML]="gearItem.major"></div></td></tr>
-                  <tr><td colspan="3">Minor Attributes:</td></tr>
-                  <tr><td colspan="3"><div style="margin-left: 40px;" [innerHTML]="gearItem.minor"></div></td></tr>
+        <div class="row">
+          <div *ngFor="let gearItem of gear">
+            <div class="col-md-3" *ngIf="isFiltered(gearItem)">
+              <div class="project" [ngClass]="getRarity(gearItem)">
+                <div class="shape">
+                  <div class="shape-text"></div>
+                </div>
+                <div class="project-content" style='height:32em'>
+                  <h4 class="lead">
+                    {{gearItem.name}}
+                  </h4>
+                  <table class="table table-bordered table-striped table-sm">
+                    <tr><td class="cell-high text-center" colspan="3">{{gearItem.vendor}}</td></tr>
+                    <tr>
+                      <td style="text-align: center;">Score</td>
+                      <td style="text-align: center;">Armor</td>
+                      <td style="text-align: center;">Price</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;">{{gearItem.score}}</td>
+                      <td style="text-align: center;">{{gearItem.armor}}</td>
+                      <td style="text-align: center;">{{gearItem.price}}</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;">Firearms</td>
+                      <td style="text-align: center;">Stamina</td>
+                      <td style="text-align: center;">Electronics</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;">{{gearItem.fire}}</td>
+                      <td style="text-align: center;">{{gearItem.stam}}</td>
+                      <td style="text-align: center;">{{gearItem.elec}}</td>
+                    </tr>
+                    <tr><td colspan="3">Major Attributes:</td></tr>
+                    <tr><td colspan="3"><div style="margin-left: 40px;" [innerHTML]="gearItem.major"></div></td></tr>
+                    <tr><td colspan="3">Minor Attributes:</td></tr>
+                    <tr><td colspan="3"><div style="margin-left: 40px;" [innerHTML]="gearItem.minor"></div></td></tr>
 
-                </table>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -81,9 +83,9 @@
       </div>
     </div>
   </div>
-</div>
-<div [collapse]="!isCollapsed" >
-  <div class="well">
-    <h4>Gear Items: {{gear.length}}</h4>
+  <div [collapse]="!isCollapsed" >
+    <div class="well">
+      <h4>Gear Items: {{gear.length}}</h4>
+    </div>
   </div>
 </div>

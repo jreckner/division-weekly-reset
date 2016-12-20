@@ -22,7 +22,7 @@ import { DivisionBlueprintsComponent } from './components/division-blueprints/di
 import { DivisionGearComponent } from './components/division-items/division-gear.component';
 import { DivisionGearModsComponent } from "./components/division-items/division-gear-mods.component";
 import { DivisionWeaponsComponent } from "./components/division-items/division-weapons.component";
-import { DivisionWeaponsModsComponent } from "./components/division-items/division-weapon-mods.component";
+import { DivisionWeaponModsComponent } from "./components/division-items/division-weapon-mods.component";
 
 import { WeeklyResetDataService } from './services/weekly-reset-data.service';
 import { DivisionItemsService } from './components/division-items/division-items.service';
@@ -37,7 +37,7 @@ import { DivisionItemsService } from './components/division-items/division-items
     DivisionGearComponent,
     DivisionGearModsComponent,
     DivisionWeaponsComponent,
-    DivisionWeaponsModsComponent
+    DivisionWeaponModsComponent
   ],
   imports: [
     BrowserModule,
