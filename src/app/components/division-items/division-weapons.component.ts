@@ -16,7 +16,7 @@ export class DivisionWeaponsComponent {
   }
 
   getWeapons(): Weapon[] {
-    return this.itemsService.weapons
+    return this.itemsService.getWeaponsSortedByName();
   }
 
   getRarity(item): string {

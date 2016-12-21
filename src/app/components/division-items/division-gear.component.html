@@ -4,10 +4,10 @@
       <button type="button" class="btn btn-primary btn-sm" (click)="filterHE()" [ngClass]="isFilteredHE ? 'btn-danger' : 'btn-success'">High Ends</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('alpha')" [ngClass]="isFilteredAlpha ? 'btn-danger' : 'btn-success'">AlphaBridge</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('banshee')" [ngClass]="isFilteredBanshee ? 'btn-danger' : 'btn-success'">Banshee</button>
+      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('front')" [ngClass]="isFilteredFront ? 'btn-danger' : 'btn-success'">D3-FNC</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('dead')" [ngClass]="isFilteredDead ? 'btn-danger' : 'btn-success'">DeadEYE</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('final')" [ngClass]="isFilteredFinal ? 'btn-danger' : 'btn-success'">Final Measure</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('fire')" [ngClass]="isFilteredFire ? 'btn-danger' : 'btn-success'">FireCrest</button>
-      <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('front')" [ngClass]="isFilteredFront ? 'btn-danger' : 'btn-success'">FrontLine</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('hunter')" [ngClass]="isFilteredHunter ? 'btn-danger' : 'btn-success'">Hunter's Faith</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('lone')" [ngClass]="isFilteredLone ? 'btn-danger' : 'btn-success'">Lone Star</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('nomad')" [ngClass]="isFilteredNomad ? 'btn-danger' : 'btn-success'">Path of the Nomad</button>
@@ -39,7 +39,7 @@
         </button>
       </div>
       <div class="row">
-        <div *ngFor="let gearItem of gear">
+        <div *ngFor="let gearItem of getGear()">
           <div
             class="col-lg-3 col-md-6 col-sm-6 col-xs-12" *ngIf="isFiltered(gearItem)">
             <div class="project" [ngClass]="getRarity(gearItem)">

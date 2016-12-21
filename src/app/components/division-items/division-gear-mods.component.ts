@@ -16,7 +16,7 @@ export class DivisionGearModsComponent {
   }
 
   getGearMods(): GearMod[] {
-    return this.itemsService.gearMods
+    return this.itemsService.getGearModsSortedByName();
   }
 
   getRarity(item): string {
