@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DivisionItemsService } from './division-items.service';
-import { WeaponMod } from "../../models/weapon-mod.model";
+import { WeaponMod } from '../../models/weapon-mod.model';
 
 @Component({
   selector: 'division-weapon-mods',
@@ -24,7 +24,7 @@ export class DivisionWeaponModsComponent {
   }
 
   isFiltered(item) {
-    if (this.filteredKeyword != '') {
+    if (this.filteredKeyword !== '') {
       if (item &&
         (item.attributes.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&
         (item && (item.name.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0))) {
@@ -35,11 +35,11 @@ export class DivisionWeaponModsComponent {
   }
 
   filterKeyword(keyword: string): void {
-    this.filteredKeyword = keyword
+    this.filteredKeyword = keyword;
   }
 
   clearFilter() {
-    this.filteredKeyword = ''
+    this.filteredKeyword = '';
   }
 
 };

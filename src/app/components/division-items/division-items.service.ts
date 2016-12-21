@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { WeeklyResetDataService } from '../../services/weekly-reset-data.service';
 import { GearMod } from '../../models/gear-mod.model';
-import { WeaponMod } from "../../models/weapon-mod.model";
-import { Weapon } from "../../models/weapon.model";
-import { Gear } from "../../models/gear.model";
+import { WeaponMod } from '../../models/weapon-mod.model';
+import { Weapon } from '../../models/weapon.model';
+import { Gear } from '../../models/gear.model';
 
 @Injectable()
 export class DivisionItemsService {
@@ -26,8 +26,8 @@ export class DivisionItemsService {
 
   loadBoo() {
     this.dataService.getBoo().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -51,8 +51,8 @@ export class DivisionItemsService {
 
   loadSpecialEquipment() {
     this.dataService.getSpecialEquipment().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -76,8 +76,8 @@ export class DivisionItemsService {
 
   loadLzEast() {
     this.dataService.getLzEast().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -101,8 +101,8 @@ export class DivisionItemsService {
 
   loadLzWest() {
     this.dataService.getLzWest().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -126,8 +126,8 @@ export class DivisionItemsService {
 
   loadDz() {
     this.dataService.getDz().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -151,8 +151,8 @@ export class DivisionItemsService {
 
   loadDzEast() {
     this.dataService.getDzEast().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -176,8 +176,8 @@ export class DivisionItemsService {
 
   loadDzWest() {
     this.dataService.getDzWest().subscribe(json => {
-      for (var i = 0; i < json.length; i++) {
-        var obj = json[i];
+      for (let i = 0; i < json.length; i++) {
+        let obj = json[i];
         if (obj.type === 'gear-mod') {
           let item = new GearMod();
           item.copyInto(obj);
@@ -200,15 +200,15 @@ export class DivisionItemsService {
   }
 
   dynamicSort(property) {
-    var sortOrder = 1;
-    if(property[0] === "-") {
+    let sortOrder = 1;
+    if (property[0] === '-') {
       sortOrder = -1;
       property = property.substr(1);
-    }
-    return function (a,b) {
-      var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+    };
+    return function(a, b) {
+      let result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
       return result * sortOrder;
-    }
+    };
   }
 
   getGearSortedByName() {

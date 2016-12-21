@@ -8,7 +8,7 @@ import { WeeklyResetDataService } from '../../services/weekly-reset-data.service
 export class DivisionBlueprintsComponent {
 
 
-  title:string = 'Blueprints';
+  title: string = 'Blueprints';
 
   blueprints;
 

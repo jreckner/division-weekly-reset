@@ -8,7 +8,11 @@ export class WeaponMod {
   attributes: string;
 
   copyInto(obj) {
-    for (var prop in obj) this[prop] = obj[prop];
+    for (let prop in obj) {
+      if (obj.hasOwnProperty(prop)) {
+        this[prop] = obj[prop];
+      }
+    }
   }
 
 }

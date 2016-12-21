@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DivisionItemsService } from './division-items.service';
-import { Weapon } from "../../models/weapon.model";
+import { Weapon } from '../../models/weapon.model';
 
 @Component({
   selector: 'division-weapons',
@@ -24,7 +24,7 @@ export class DivisionWeaponsComponent {
   }
 
   isFiltered(item) {
-    if (this.filteredKeyword != '') {
+    if (this.filteredKeyword !== '') {
       if (item &&
         (item.bonus.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&
         (item.talent1.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&
@@ -38,11 +38,11 @@ export class DivisionWeaponsComponent {
   }
 
   filterKeyword(keyword: string): void {
-    this.filteredKeyword = keyword
+    this.filteredKeyword = keyword;
   }
 
   clearFilter() {
-    this.filteredKeyword = ''
+    this.filteredKeyword = '';
   }
 
 };

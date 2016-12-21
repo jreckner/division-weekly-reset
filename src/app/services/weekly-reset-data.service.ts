@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 @Injectable()
 export class WeeklyResetDataService {
-  constructor(private http:Http) {
+  constructor(private http: Http) {
   }
 
   getBlueprints() {

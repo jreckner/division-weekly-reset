@@ -21,9 +21,9 @@ import { AboutComponent } from './components/about.component';
 
 import { DivisionBlueprintsComponent } from './components/division-blueprints/division-blueprints.component';
 import { DivisionGearComponent } from './components/division-items/division-gear.component';
-import { DivisionGearModsComponent } from "./components/division-items/division-gear-mods.component";
-import { DivisionWeaponsComponent } from "./components/division-items/division-weapons.component";
-import { DivisionWeaponModsComponent } from "./components/division-items/division-weapon-mods.component";
+import { DivisionGearModsComponent } from './components/division-items/division-gear-mods.component';
+import { DivisionWeaponsComponent } from './components/division-items/division-weapons.component';
+import { DivisionWeaponModsComponent } from './components/division-items/division-weapon-mods.component';
 
 import { WeeklyResetDataService } from './services/weekly-reset-data.service';
 import { DivisionItemsService } from './components/division-items/division-items.service';

@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { WeeklyResetDataService } from '../../services/weekly-reset-data.service';
 import { GearMod } from '../../models/gear-mod.model';
-import { WeaponMod } from "../../models/weapon-mod.model";
-import { Weapon } from "../../models/weapon.model";
-import { Gear } from "../../models/gear.model";
-import {DivisionItemsService} from "./division-items.service";
+import { WeaponMod } from '../../models/weapon-mod.model';
+import { Weapon } from '../../models/weapon.model';
+import { Gear } from '../../models/gear.model';
+import { DivisionItemsService } from './division-items.service';
 
 @Component({
   selector: 'division-gear',
@@ -12,7 +11,7 @@ import {DivisionItemsService} from "./division-items.service";
 })
 export class DivisionGearComponent {
 
-  title:string = 'Gear';
+  title: string = 'Gear';
 
   gearMods: GearMod[] = [];
   weaponMods: WeaponMod[] = [];
@@ -61,7 +60,7 @@ export class DivisionGearComponent {
       }
     }
 
-    if (this.filteredKeyword != '') {
+    if (this.filteredKeyword !== '') {
       if (item &&
         (item.major.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&
         (item.minor.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&
@@ -151,7 +150,7 @@ export class DivisionGearComponent {
   }
 
   filterKeyword(keyword) {
-    this.filteredKeyword = keyword
+    this.filteredKeyword = keyword;
   }
 
   filterSet(set) {
@@ -190,7 +189,7 @@ export class DivisionGearComponent {
   }
 
   clearFilter() {
-    this.filteredKeyword = ''
+    this.filteredKeyword = '';
   }
 
 };

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DivisionItemsService } from './division-items.service';
-import { GearMod } from "../../models/gear-mod.model";
+import { GearMod } from '../../models/gear-mod.model';
 
 @Component({
   selector: 'division-gear-mods',
@@ -24,7 +24,7 @@ export class DivisionGearModsComponent {
   }
 
   isFiltered(item) {
-    if (this.filteredKeyword != '') {
+    if (this.filteredKeyword !== '') {
       if (item &&
         (item.attribute.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&
         (item && (item.name.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0))) {
@@ -35,11 +35,11 @@ export class DivisionGearModsComponent {
   }
 
   filterKeyword(keyword: string): void {
-    this.filteredKeyword = keyword
+    this.filteredKeyword = keyword;
   }
 
   clearFilter() {
-    this.filteredKeyword = ''
+    this.filteredKeyword = '';
   }
 
 };

@@ -1,50 +1,53 @@
-import {Directive, Input, HostBinding, ElementRef} from 'angular2/core'
+import { Directive, Input, HostBinding, ElementRef } from '@angular/core';
+
 @Directive({selector: '[collapse]'})
 export class Collapse {
 
   @HostBinding('class.collapsing')
-  private isCollapsing:boolean
+  private isCollapsing: boolean;
 
   // style
   @HostBinding('style.height')
-  private height:string;
+  private height: string;
 
 
   @Input()
-  private set collapse(value:boolean) {
-    if(value!==undefined){
-      if(value){
+  private set collapse(value: boolean) {
+    if (value !== undefined) {
+      if (value) {
         this.hide();
-      }else {
+      } else {
         this.show();
       }
     }
-    //
   }
-  constructor(public el: ElementRef) {
 
+  constructor(public el: ElementRef) {
     this.measureHeight();
   }
+
   measureHeight() {
     let elem = this.el.nativeElement;
-    //lets be sure the element has display:block style
+    // lets be sure the element has display:block style
     elem.className = elem.className.replace('collapse', '');
     this.h = elem.scrollHeight;
 
   }
+
   hide(){
-    this.height = this.h +'px'
-    setTimeout(() => {
+    this.height = this.h + 'px';
+    setTimeout( () => {
       this.height = '0px';
-      this.isCollapsing = true;//apply 'collapsing' class
-    },1);
+      this.isCollapsing = true; // apply 'collapsing' class
+    }, 1);
   }
+
   show() {
-    this.height = '0px'
+    this.height = '0px';
     setTimeout(() => {
       this.height = this.h + 'px';
-      this.isCollapsing = true;//apply 'collapsing' class
-    },1);
+      this.isCollapsing = true; // apply 'collapsing' class
+    }, 1);
   }
 
 }
