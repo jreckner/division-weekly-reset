@@ -30,12 +30,12 @@ export class Collapse {
     let elem = this.el.nativeElement;
     // lets be sure the element has display:block style
     elem.className = elem.className.replace('collapse', '');
-    this.h = elem.scrollHeight;
+    this.height = elem.scrollHeight;
 
   }
 
   hide(){
-    this.height = this.h + 'px';
+    this.height = this.height + 'px';
     setTimeout( () => {
       this.height = '0px';
       this.isCollapsing = true; // apply 'collapsing' class
@@ -45,7 +45,7 @@ export class Collapse {
   show() {
     this.height = '0px';
     setTimeout(() => {
-      this.height = this.h + 'px';
+      this.height = this.height + 'px';
       this.isCollapsing = true; // apply 'collapsing' class
     }, 1);
   }
