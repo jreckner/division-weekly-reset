@@ -11,6 +11,10 @@ export class DivisionGearModsComponent {
   title: string = 'Gear Mods';
 
   filteredKeyword: string = '';
+  isFilteredElec = false;
+  isFilteredStam = false;
+  isFilteredFire = false;
+  isFilteredPerf = false;
 
   constructor(private itemsService: DivisionItemsService) {
   }
@@ -31,7 +35,46 @@ export class DivisionGearModsComponent {
         return false;
       }
     }
+
+    let lowerName = item.name.toLowerCase();
+    if (item && (lowerName.indexOf('electronic') >= 0)) {
+      if (this.isFilteredElec) {
+        return false;
+      }
+      return true;
+    } else if (item && (lowerName.indexOf('stamina') >= 0)) {
+      if (this.isFilteredStam) {
+        return false;
+      }
+      return true;
+    } else if (item && (lowerName.indexOf('firearm') >= 0)) {
+      if (this.isFilteredFire) {
+        return false;
+      }
+      return true;
+    } else if (item && (lowerName.indexOf('performance') >= 0)) {
+      if (this.isFilteredPerf) {
+        return false;
+      }
+    }
+
     return true;
+  }
+
+  filterElec() {
+    this.isFilteredElec = !this.isFilteredElec;
+  }
+
+  filterStam() {
+    this.isFilteredStam = !this.isFilteredStam;
+  }
+
+  filterFire() {
+    this.isFilteredFire = !this.isFilteredFire;
+  }
+
+  filterPerf() {
+    this.isFilteredPerf= !this.isFilteredPerf;
   }
 
   filterKeyword(keyword: string): void {

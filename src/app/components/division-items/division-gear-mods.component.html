@@ -1,4 +1,14 @@
-<h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
+<div>
+  <div class="btn-toolbar pull-right">
+    <div class="btn-group btn-group-sm" role="group">
+      <button type="button" class="btn btn-primary btn-sm" (click)="filterElec()" [ngClass]="isFilteredElec ? 'btn-danger' : 'btn-success'">Electronics</button>
+      <button type="button" class="btn btn-primary btn-sm" (click)="filterStam()" [ngClass]="isFilteredStam ? 'btn-danger' : 'btn-success'">Stamina</button>
+      <button type="button" class="btn btn-primary btn-sm" (click)="filterFire()" [ngClass]="isFilteredFire ? 'btn-danger' : 'btn-success'">Firearms</button>
+      <button type="button" class="btn btn-primary btn-sm" (click)="filterPerf()" [ngClass]="isFilteredPerf ? 'btn-danger' : 'btn-success'">Performance</button>
+    </div>
+  </div>
+  <h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
+</div>
 <div [collapse]="isCollapsed" >
   <div class="well">
     <div class="container-fluid">
