@@ -63,6 +63,10 @@ export class DivisionGearComponent {
     return 'project-default';
   }
 
+  isDirectLink() {
+    return this.uuid && this.uuid !== '';
+  }
+
   isFiltered(item) {
     if (this.uuid && this.uuid !== '') {
       if (item.getHash() == this.uuid) {

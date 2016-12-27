@@ -42,6 +42,10 @@ export class DivisionWeaponsComponent {
     return 'project-warning';
   }
 
+  isDirectLink() {
+    return this.uuid && this.uuid !== '';
+  }
+
   isFiltered(item) {
     if (this.uuid && this.uuid !== '') {
       if (item.getHash() == this.uuid) {
