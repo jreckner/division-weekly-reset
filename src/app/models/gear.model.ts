@@ -1,4 +1,3 @@
-import { Guid } from "../services/guid-service";
 import { md5 } from '../services/md5-service';
 
 export class Gear {
@@ -17,11 +16,14 @@ export class Gear {
   major: string;
   minor: string;
 
-  uuid: string = Guid.newGuid();
-
   getHash(): string {
-    return md5(this.name + this.vendor + this.rarity + this.price + this.score + this.armor
-      + this.fire + this.stam + this.elec + this.major + this.minor);
+    let self = '';
+    for (let i in this) {
+      if (this.hasOwnProperty(i)) {
+        self += this[i];
+      }
+    }
+    return md5(self);
   }
 
   copyInto(obj) {

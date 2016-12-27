@@ -1,4 +1,3 @@
-import { Guid } from "../services/guid-service";
 import { md5 } from '../services/md5-service';
 
 export class WeaponMod {
@@ -10,10 +9,14 @@ export class WeaponMod {
   price: string;
   attributes: string;
 
-  uuid: string = Guid.newGuid();
-
   getHash(): string {
-    return md5(this.name + this.vendor + this.price + this.attributes);
+    let self = '';
+    for (let i in this) {
+      if (this.hasOwnProperty(i)) {
+        self += this[i];
+      }
+    }
+    return md5(self);
   }
 
   copyInto(obj) {
