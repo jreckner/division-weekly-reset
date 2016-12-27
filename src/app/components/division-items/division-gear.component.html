@@ -1,5 +1,5 @@
 <div>
-  <div class="btn-toolbar pull-right">
+  <div *ngIf="!this.uuid" class="btn-toolbar pull-right">
     <div class="btn-group btn-group-sm" role="group">
       <button type="button" class="btn btn-primary btn-sm" (click)="filterHE()" [ngClass]="isFilteredHE ? 'btn-danger' : 'btn-success'">High Ends</button>
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('alpha')" [ngClass]="isFilteredAlpha ? 'btn-danger' : 'btn-success'">AlphaBridge</button>
@@ -18,13 +18,15 @@
       <button type="button" class="btn btn-primary btn-sm" (click)="filterSet('tact')" [ngClass]="isFilteredTact ? 'btn-danger' : 'btn-success'">Tacticians Authority</button>
     </div>
   </div>
-  <h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
+  <h2 (click)="isCollapsed = !isCollapsed" style="cursor: pointer;">{{title}}
+    <span [ngClass]="!isCollapsed ? 'glyphicon glyphicon-chevron-up' : 'glyphicon glyphicon-chevron-down'"></span>
+  </h2>
 </div>
 <div [collapse]="isCollapsed" >
   <div class="well">
     <div class="container-fluid">
       <div class="row">
-        <div id="custom-search-input" class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pull-right">
+        <div id="custom-search-input" *ngIf="!this.uuid" class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pull-right">
           <div class="input-group input-group-sm">
             <input #box type="text" class="search-query form-control" placeholder="Search" (keyup.enter)="filterKeyword(box.value)" />
             <span class="input-group-btn">
@@ -44,7 +46,11 @@
             class="col-lg-3 col-md-6 col-sm-6 col-xs-12" *ngIf="isFiltered(gearItem)">
             <div class="project" [ngClass]="getRarity(gearItem)">
               <div class="shape">
-                <div class="shape-text"></div>
+                <div class="shape-text">
+                  <div *ngIf="!this.uuid">
+                    <a [routerLink]="['/gear', gearItem.getHash()]"><span class="glyphicon glyphicon-link"></span></a>
+                  </div>
+                </div>
               </div>
               <div class="project-content" style='height:32em'>
                 <h4 class="lead">
@@ -76,7 +82,6 @@
                   <tr><td colspan="3"><div style="margin-left: 40px;" [innerHTML]="gearItem.major"></div></td></tr>
                   <tr><td colspan="3">Minor Attributes:</td></tr>
                   <tr><td colspan="3"><div style="margin-left: 40px;" [innerHTML]="gearItem.minor"></div></td></tr>
-
                 </table>
               </div>
             </div>

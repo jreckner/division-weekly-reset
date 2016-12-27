@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { DivisionItemsService } from './division-items.service';
 import { Weapon } from '../../models/weapon.model';
+
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'division-weapons',
@@ -10,9 +13,25 @@ export class DivisionWeaponsComponent {
 
   title: string = 'Weapons';
 
+  uuid: string = '';
   filteredKeyword: string = '';
 
-  constructor(private itemsService: DivisionItemsService) {
+  private subscription: Subscription;
+
+  constructor(private itemsService: DivisionItemsService, private activatedRoute: ActivatedRoute) {
+  }
+
+  ngOnInit() {
+    // subscribe to router event
+    this.subscription = this.activatedRoute.params.subscribe(
+      (param: any) => {
+        this.uuid = param['uuid'];
+      });
+  }
+
+  ngOnDestroy() {
+    // prevent memory leak by unsubscribing
+    this.subscription.unsubscribe();
   }
 
   getWeapons(): Weapon[] {
@@ -24,6 +43,13 @@ export class DivisionWeaponsComponent {
   }
 
   isFiltered(item) {
+    if (this.uuid && this.uuid !== '') {
+      if (item.getHash() == this.uuid) {
+        return true;
+      }
+      return false;
+    }
+
     if (this.filteredKeyword !== '') {
       if (item &&
         (item.bonus.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&

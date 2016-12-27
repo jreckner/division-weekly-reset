@@ -11,35 +11,17 @@ import { DivisionWeaponModsComponent } from './components/division-items/divisio
 import { AboutComponent } from './components/about.component';
 
 export const APP_ROUTES: Routes = [
-  {
-    path: '',
-    redirectTo: '/gear',
-    pathMatch: 'full'
-  },
-  {
-    path: 'blueprints',
-    component: DivisionBlueprintsComponent
-  },
-  {
-    path: 'gear',
-    component: DivisionGearComponent
-  },
-  {
-    path: 'gearmods',
-    component: DivisionGearModsComponent
-  },
-  {
-    path: 'weapons',
-    component: DivisionWeaponsComponent
-  },
-  {
-    path: 'weaponmods',
-    component: DivisionWeaponModsComponent
-  },
-  {
-    path: 'about',
-    component: AboutComponent
-  }
+  { path: '', redirectTo: '/gear', pathMatch: 'full' },
+  { path: 'blueprints', component: DivisionBlueprintsComponent },
+  { path: 'gear', component: DivisionGearComponent },
+  { path: 'gear/:uuid', component: DivisionGearComponent },
+  { path: 'gearmods', component: DivisionGearModsComponent },
+  { path: 'gearmods/:uuid', component: DivisionGearModsComponent },
+  { path: 'weapons', component: DivisionWeaponsComponent },
+  { path: 'weapons/:uuid', component: DivisionWeaponsComponent },
+  { path: 'weaponmods', component: DivisionWeaponModsComponent },
+  { path: 'weaponmods/:uuid', component: DivisionWeaponModsComponent },
+  { path: 'about', component: AboutComponent }
 ];
 
 export const APP_ROUTER: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);

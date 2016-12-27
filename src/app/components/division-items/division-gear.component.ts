@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { GearMod } from '../../models/gear-mod.model';
-import { WeaponMod } from '../../models/weapon-mod.model';
-import { Weapon } from '../../models/weapon.model';
+import { ActivatedRoute } from '@angular/router';
 import { Gear } from '../../models/gear.model';
 import { DivisionItemsService } from './division-items.service';
+
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'division-gear',
@@ -13,11 +13,7 @@ export class DivisionGearComponent {
 
   title: string = 'Gear';
 
-  gearMods: GearMod[] = [];
-  weaponMods: WeaponMod[] = [];
-  weapons: Weapon[] = [];
-  gear: Gear[] = [];
-
+  uuid: string = '';
   filteredKeyword = '';
   isFilteredHE = false;
   isFilteredAlpha = false;
@@ -35,7 +31,22 @@ export class DivisionGearComponent {
   isFilteredStriker = false;
   isFilteredTact = false;
 
-  constructor(private itemsService: DivisionItemsService) {
+  private subscription: Subscription;
+
+  constructor(private itemsService: DivisionItemsService, private activatedRoute: ActivatedRoute) {
+  }
+
+  ngOnInit() {
+    // subscribe to router event
+    this.subscription = this.activatedRoute.params.subscribe(
+      (param: any) => {
+        this.uuid = param['uuid'];
+      });
+  }
+
+  ngOnDestroy() {
+    // prevent memory leak by unsubscribing
+    this.subscription.unsubscribe();
   }
 
   getGear() {
@@ -53,7 +64,13 @@ export class DivisionGearComponent {
   }
 
   isFiltered(item) {
-    // console.log(item);
+    if (this.uuid && this.uuid !== '') {
+      if (item.getHash() == this.uuid) {
+        return true;
+      }
+      return false;
+    }
+
     if (item && item.rarity === 'header-he') {
       if (this.isFilteredHE) {
         return false;

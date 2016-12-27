@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { DivisionItemsService } from './division-items.service';
 import { GearMod } from '../../models/gear-mod.model';
+
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'division-gear-mods',
@@ -10,24 +13,47 @@ export class DivisionGearModsComponent {
 
   title: string = 'Gear Mods';
 
+  uuid: string = '';
   filteredKeyword: string = '';
   isFilteredElec = false;
   isFilteredStam = false;
   isFilteredFire = false;
   isFilteredPerf = false;
 
-  constructor(private itemsService: DivisionItemsService) {
+  private subscription: Subscription;
+
+  constructor(private itemsService: DivisionItemsService, private activatedRoute: ActivatedRoute) {
+  }
+
+  ngOnInit() {
+    // subscribe to router event
+    this.subscription = this.activatedRoute.params.subscribe(
+      (param: any) => {
+        this.uuid = param['uuid'];
+      });
+  }
+
+  ngOnDestroy() {
+    // prevent memory leak by unsubscribing
+    this.subscription.unsubscribe();
   }
 
   getGearMods(): GearMod[] {
     return this.itemsService.getGearModsSortedByName();
   }
 
-  getRarity(item): string {
+  getRarity(item: GearMod): string {
     return 'project-warning';
   }
 
-  isFiltered(item) {
+  isFiltered(item: GearMod) {
+    if (this.uuid && this.uuid !== '') {
+      if (item.getHash() == this.uuid) {
+        return true;
+      }
+      return false;
+    }
+
     if (this.filteredKeyword !== '') {
       if (item &&
         (item.attribute.toLowerCase().indexOf(this.filteredKeyword.toLowerCase()) < 0) &&

@@ -1,4 +1,6 @@
-<h2 (click)="isCollapsed = !isCollapsed">{{title}}</h2>
+<h2 (click)="isCollapsed = !isCollapsed" style="cursor: pointer;">{{title}}
+  <span [ngClass]="!isCollapsed ? 'glyphicon glyphicon-chevron-up' : 'glyphicon glyphicon-chevron-down'"></span>
+</h2>
 <div [collapse]="isCollapsed" >
   <div class="well">
     <div class="table-responsive">
