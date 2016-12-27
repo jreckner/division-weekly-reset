@@ -35,7 +35,7 @@
             <div class="project" [ngClass]="getRarity(mod)">
               <div class="shape">
                 <div class="shape-text">
-                  <div *ngIf="!this.uuid">
+                  <div *ngIf="!isDirectLink()">
                     <a [routerLink]="['/gearmods', mod.getHash()]"><span class="glyphicon glyphicon-link"></span></a>
                   </div>
                 </div>

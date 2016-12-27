@@ -25,7 +25,7 @@
             <div class="project" [ngClass]="getRarity(weapon)">
               <div class="shape">
                 <div class="shape-text">
-                  <div *ngIf="!this.uuid">
+                  <div *ngIf="!isDirectLink()">
                     <a [routerLink]="['/weapons', weapon.getHash()]"><span class="glyphicon glyphicon-link"></span></a>
                   </div>
                 </div>
