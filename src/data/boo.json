@@ -5,13 +5,13 @@
     "vendor": "BoO Gear Vendor",
     "name":   "Prosperus Knee Pads",
     "score":  "256",
-    "armor":  "1,538",
+    "armor":  "2,879",
     "price":  "$ 890,304",
     "fire":   "-",
-    "stam":   "-",
-    "elec":   "1244",
-    "major":  "9% Critical Hit Damage",
-    "minor":  "33% Bleed Resistance<br/>28% Blind/Deaf Resistance<br/>33% Disorient Resistance"
+    "stam":   "1159",
+    "elec":   "-",
+    "major":  "1,256 Armor",
+    "minor":  "33% Blind/Deaf Resistance<br/>11.0% Enemy Armor Damage<br/>32% Burn Resistance"
   },
   {
     "type":       "gear-mod",
@@ -19,44 +19,44 @@
     "vendor":     "BoO Gear Vendor",
     "stat":       "-",
     "price":      "$ 168,044",
-    "attribute":  "5.0% Pulse Duration"
+    "attribute":  "6.50% Ballistic Shield Health"
   },
 
   {
     "type":     "weapon",
-    "name":     "Military P416",
+    "name":     "Tactical Vector 45 ACP",
     "vendor":   "BoO Weapons Vendor",
     "score":    "256",
     "price":    "$ 1,669,320",
-    "bonus":    "18% Enemy Armor Damage",
-    "dmg":      "19.7k",
+    "bonus":    "36% Critical Hit Damage",
+    "dmg":      "17.1k",
     "rpm":      "750",
-    "mag":      "30",
-    "talent1":  "Self-preserved",
-    "talent2":  "Capable",
-    "talent3":  "Sustained"
+    "mag":      "20",
+    "talent1":  "Destructive",
+    "talent2":  "Accurate",
+    "talent3":  "Meticulous"
   },
   {
     "type":       "weapon-mod",
-    "name":       "angle Grip - Red",
+    "name":       "Small Laser Pointer",
     "vendor":     "BoO Weapons Vendor",
     "price":      "$ 174,172",
-    "attributes": "13% Stability<br/>4.0% Reload Speed<br/>4% Critical Hit Damage"
+    "attributes": "15.50% Accuracy<br/>4.50% Optimal Range<br/>4.50% Reload Speed"
   },
 
   {
     "type":     "weapon",
     "vendor":   "DZ Vendor at BoO",
-    "name":     "Police 686 Magnum",
+    "name":     "Classic M60",
     "score":    "256",
     "price":    "DZ 332,928",
-    "bonus":    "-",
-    "dmg":      "34.1k",
-    "rpm":      "350",
-    "mag":      "6",
-    "talent1":  "Expert",
-    "talent2":  "Accurate",
-    "talent3":  "-"
+    "bonus":    "14% DMG Out of Cover",
+    "dmg":      "17.5k",
+    "rpm":      "500",
+    "mag":      "100",
+    "talent1":  "Fierce",
+    "talent2":  "Unforgiving",
+    "talent3":  "Talented"
   },
   {
     "type":   "gear",
@@ -64,28 +64,28 @@
     "vendor": "DZ Vendor at BoO",
     "name":   "Specialized Backpack",
     "score":  "256",
-    "armor":  "1,165",
+    "armor":  "1,323",
     "price":  "DZ 277,440",
-    "fire":   "-",
+    "fire":   "1125",
     "stam":   "-",
-    "elec":   "1200",
-    "major":  "6% Skill Haste",
-    "minor":  "14% Bleed Resistance"
+    "elec":   "-",
+    "major":  "7% Skill Haste",
+    "minor":  "16% Disrupt Resistance"
   },
   {
     "type":       "gear-mod",
-    "name":       "Performance Mod",
+    "name":       "Electronics Mod",
     "vendor":     "DZ Vendor at BoO",
-    "stat":       "-",
+    "stat":       "251 ELE",
     "price":      "DZ 21,362",
-    "attribute":  "4.50% Support Station Healing Speed"
+    "attribute":  "2.50% Exotic Damage Resilience"
   },
   {
     "type":       "weapon-mod",
-    "name":       "Handstop OD - Green",
+    "name":       "Muzzle Break",
     "vendor":     "DZ Vendor at BoO",
     "price":      "DZ 24,137",
-    "attributes": "28.50% Reload Speed<br/>4% Critical Hit Damage<br/>2.50% Stability"
+    "attributes": "13.0% Stability<br/>4% Critical Hit Damage<br/>3.0% Critical Hit Chance"
   },
 
   {
@@ -95,7 +95,7 @@
     "score":    "256",
     "price":    "$ 1.669,320",
     "bonus":    "12% DMG Out of Cover",
-    "dmg":      "17.9k",
+    "dmg":      "17.5k",
     "rpm":      "650",
     "mag":      "45",
     "talent1":  "Swift",
@@ -108,8 +108,8 @@
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1.669,320",
-    "bonus":    "323.50% Stagger",
-    "dmg":      "145k",
+    "bonus":    "344.0% Stagger",
+    "dmg":      "138k",
     "rpm":      "200",
     "mag":      "2",
     "talent1":  "Responsive",
@@ -123,7 +123,7 @@
     "score":    "256",
     "price":    "$ 1.669,320",
     "bonus":    "-",
-    "dmg":      "26.8k",
+    "dmg":      "25.6k",
     "rpm":      "310",
     "mag":      "7",
     "talent1":  "Provident",
@@ -132,115 +132,115 @@
   },
   {
     "type":     "weapon",
-    "name":     "93R",
+    "name":     "Subnosed Rhino",
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1,335,456",
     "bonus":    "-",
-    "dmg":      "11.1k",
-    "rpm":      "1100",
-    "mag":      "20",
+    "dmg":      "32.0k",
+    "rpm":      "350",
+    "mag":      "6",
     "talent1":  "Expert",
-    "talent2":  "Brutal",
+    "talent2":  "Sustained",
     "talent3":  "-"
   },
   {
     "type":     "weapon",
-    "name":     "MP5 ST",
+    "name":     "Navy MP5 N",
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1,669,320",
-    "bonus":    "33% Critical Hit Damage",
-    "dmg":      "17.1k",
+    "bonus":    "39% Critical Hit Damage",
+    "dmg":      "16.6k",
     "rpm":      "800",
     "mag":      "32",
     "talent1":  "Competent",
-    "talent2":  "Accurate",
-    "talent3":  "Brutal"
+    "talent2":  "Vicious",
+    "talent3":  "Dominant"
   },
   {
     "type":     "weapon",
-    "name":     "Tactical SA-58",
+    "name":     "Military P416",
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1,669,320",
-    "bonus":    "18% Enemy Armor Damage",
-    "dmg":      "25.8k",
-    "rpm":      "650",
-    "mag":      "20",
-    "talent1":  "Predatory",
-    "talent2":  "Swift",
-    "talent3":  "Adept"
+    "bonus":    "22% Enemy Armor Damage",
+    "dmg":      "18.6k",
+    "rpm":      "750",
+    "mag":      "30",
+    "talent1":  "Self-preserved",
+    "talent2":  "Deadly",
+    "talent3":  "Commanding"
   },
   {
     "type":     "weapon",
-    "name":     "Double Barrel Sawed Off",
+    "name":     "SASG-12",
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1,669,320",
-    "bonus":    "329.0% Stagger",
-    "dmg":      "148k",
-    "rpm":      "200",
-    "mag":      "2",
-    "talent1":  "Swift",
-    "talent2":  "Predatory",
-    "talent3":  "Responsive"
+    "bonus":    "349.0% Stagger",
+    "dmg":      "83.5k",
+    "rpm":      "180",
+    "mag":      "7",
+    "talent1":  "Brutal",
+    "talent2":  "Responsive",
+    "talent3":  "Destructive"
   },
   {
     "type":     "weapon",
-    "name":     "Police Mk17",
+    "name":     "M700 Tactical",
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1,669,320",
-    "bonus":    "169% Headshot Damage",
-    "dmg":      "61.3k",
-    "rpm":      "275",
-    "mag":      "20",
-    "talent1":  "Swift",
-    "talent2":  "Harmful",
-    "talent3":  "Unforgiving"
+    "bonus":    "171% Headshot Damage",
+    "dmg":      "109k",
+    "rpm":      "54",
+    "mag":      "7",
+    "talent1":  "Competent",
+    "talent2":  "Talented",
+    "talent3":  "Elevated"
   },
   {
     "type":     "weapon",
-    "name":     "Tactical M249 Para",
+    "name":     "Classic M60",
     "vendor":   "Advanced Weaponry Vendor",
     "score":    "256",
     "price":    "$ 1,669,320",
-    "bonus":    "12% DMG Out of Cover",
-    "dmg":      "19.1k",
+    "bonus":    "13% DMG Out of Cover",
+    "dmg":      "18.6k",
     "rpm":      "550",
     "mag":      "100",
     "talent1":  "Accurate",
-    "talent2":  "Domminant",
-    "talent3":  "Talented"
+    "talent2":  "Competent",
+    "talent3":  "Commanding"
   },
   {
     "type":       "weapon-mod",
-    "name":       "Extended Magazine",
+    "name":       "Quick Release Magazine",
     "vendor":     "Advanced Weaponry Vendor",
     "price":      "$ 168,044",
-    "attributes": "110.50% Magazine Size<br/>4.50% Reload Speed<br/>4.90% Rate of Fire"
+    "attributes": "30.0% Reload Speed<br/>10.50% Magazine Size<br/>2.50% Critical Hit Chance"
   },
   {
     "type":       "weapon-mod",
-    "name":       "Compensator",
+    "name":       "Osprey .45 Suppressor",
     "vendor":     "Advanced Weaponry Vendor",
     "price":      "$ 174,722",
-    "attributes": "13.50% Stability<br/>2.50% Critical Hit Chance<br/>4.50% Optimal Range"
+    "attributes": "15.0% Accuracy<br/>2.50% Stability<br/>4.50% Optimal Range<br/>49% Reduced Threat"
   },
   {
     "type":       "weapon-mod",
-    "name":       "Small Laser Pointer",
+    "name":       "Small Grip - Red",
     "vendor":     "Advanced Weaponry Vendor",
     "price":      "$ 174,722",
-    "attributes": "15.50% Accuracy<br/>4.50% Reload Speed<br/>2-50% Stability"
+    "attributes": "16% Critical Hit Damage<br/>2.0% Accuracy<br/>4.50% Reload Speed"
   },
   {
     "type":       "weapon-mod",
-    "name":       "CQBSS Scope (8x)",
+    "name":       "Mk4 M5A2 Scope (15x)",
     "vendor":     "Advanced Weaponry Vendor",
     "price":      "$ 174,722",
-    "attributes": "11.50% Stability<br/>4% Critical Hit Damage<br/>2.50% Critical Hit Chance"
+    "attributes": "22.0% Optimal Range<br/>2.0% Accuracy<br/>5.50% Headshot Damage"
   }
 
 ]

@@ -8,8 +8,8 @@
   {
     "type":   "blueprint",
     "score":  "256",
-    "name":   "MG5",
-    "price":  "PxC 915"
+    "name":   "ACR",
+    "price":  "PxC 1082"
   },
   {
     "type":   "blueprint",
@@ -20,25 +20,19 @@
   {
     "type":   "blueprint",
     "score":  "256",
-    "name":   "Electronics Backpack",
-    "price":  "PxC 665"
+    "name":   "Holster",
+    "price":  "PxC 416"
   },
   {
     "type":   "blueprint",
     "score":  "34",
-    "name":   "Small Grip - Red<br/>Critical Hit Damage, Random, Random",
+    "name":   "552 Holosight<br/>Critical Hit Chance, Random, Random",
     "price":  "PxC 200"
   },
   {
     "type":   "blueprint",
     "score":  "34",
-    "name":   "Mk4 - M5A2 scope (15x)<br/>Optimal Range, Random, Random",
-    "price":  "PxC 200"
-  },
-  {
-    "type":   "blueprint",
-    "score":  "34",
-    "name":   "Performance Mod",
+    "name":   "Quick Release Magazine<br/>Reload Speed, Random, Random",
     "price":  "PxC 192"
   },
   {
@@ -46,5 +40,35 @@
     "score":  "34",
     "name":   "Stamina Mod",
     "price":  "PxC 192"
+  },
+  {
+    "type":   "blueprint",
+    "score":  "34",
+    "name":   "Fireamrs Mod",
+    "price":  "PxC 192"
+  },
+  {
+    "type":   "blueprint",
+    "score":  "229",
+    "name":   "Enhanced PP-19",
+    "price":  "PxC 574"
+  },
+  {
+    "type":   "blueprint",
+    "score":  "229",
+    "name":   "Double Barrel Shotgun",
+    "price":  "PxC 627"
+  },
+  {
+    "type":   "blueprint",
+    "score":  "204",
+    "name":   "Double Barrel Shotgun",
+    "price":  "PxC 371"
+  },
+  {
+    "type":   "blueprint",
+    "score":  "204",
+    "name":   "Black Market RPK-74 E",
+    "price":  "PxC 340"
   }
 ]

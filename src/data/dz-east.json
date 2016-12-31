@@ -3,191 +3,191 @@
     "type":     "weapon",
     "vendor":   "DZ East 53rd",
     "score":    "256",
-    "name":     "Officer's M9 A1",
-    "price":    "DZ 332,928",
-    "bonus":    "-",
-    "dmg":      "16.5k",
-    "rpm":      "450",
-    "mag":      "20",
-    "talent1":  "Expert",
-    "talent2":  "Fierce",
-    "talent3":  "-"
+    "name":     "Marine Super 90",
+    "price":    "DZ 416,160",
+    "bonus":    "332.0% Stagger",
+    "dmg":      "98.8k",
+    "rpm":      "150",
+    "mag":      "8",
+    "talent1":  "Trained",
+    "talent2":  "Ferocious",
+    "talent3":  "Destructive"
   },
   {
     "type":   "gear",
     "rarity": "header-he",
     "vendor": "DZ East 53rd",
     "score":  "256",
-    "name":   "Inventive Backpack",
-    "armor":  "1311",
-    "price":  "DZ 277,440",
-    "fire":   "-",
-    "stam":   "1252",
-    "elec":   "-",
-    "major":  "13% Signature Ability Resource Gain",
-    "minor":  "52% Ammo Capacity"
+    "name":   "Tactical Holster",
+    "armor":  "854",
+    "price":  "DZ 194,208",
+    "fire":   "1,170",
+    "stam":   "1,212",
+    "elec":   "1,178",
+    "major":  "5% Skill Haste",
+    "minor":  "-"
   },
   {
     "type":       "gear-mod",
     "vendor":     "DZ East 53rd",
-    "name":       "Performance Mod",
-    "stat":       "-",
+    "name":       "Stamina Mod",
+    "stat":       "253",
     "price":      "DZ 21,362",
-    "attribute":  "3.50% Mobile Cover Damage Resilience"
+    "attribute":  "3% Signature Ability Resource Gain"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "DZ East 53rd",
-    "name":       "Vertical Grip - Wolf Grey",
+    "name":       "Small Laser Pointer",
     "price":      "DZ 24,137",
-    "attributes": "46.50% Optimal Range<br/>2.5% Stability<br/>2.0% Accuracy"
+    "attributes": "15.0% Accuracy<br/>4% Critical Hit Damage<br/>4.50% Reload Speed"
   },
 
   {
     "type":     "weapon",
     "vendor":   "DZ East 46th",
     "score":    "256",
-    "name":     "Black Market T821",
+    "name":     "Military L86 LSW",
     "price":    "DZ 416,160",
-    "bonus":    "32% Critical Hit Damage",
-    "dmg":      "17.4k",
-    "rpm":      "550",
-    "mag":      "32",
-    "talent1":  "Swift",
-    "talent2":  "Capable",
-    "talent3":  "Talented"
+    "bonus":    "13% DMG to target out of cover",
+    "dmg":      "16.6k",
+    "rpm":      "610",
+    "mag":      "30",
+    "talent1":  "Brutal",
+    "talent2":  "Commanding",
+    "talent3":  "Unforgiving"
   },
   {
     "type":   "gear",
     "rarity": "header-he",
     "vendor": "DZ East 46th",
     "score":  "256",
-    "name":   "Recovered Holster",
-    "armor":  "866",
-    "price":  "DZ 194,208",
-    "fire":   "1270",
-    "stam":   "1255",
-    "elec":   "1217",
-    "major":  "601 Pistol Damage",
+    "name":   "Decisive Gloves",
+    "armor":  "923",
+    "price":  "DZ 221,952",
+    "fire":   "-",
+    "stam":   "-",
+    "elec":   "1,233",
+    "major":  "4% Health on Kill<br/>1,165 LMG Damage<br/>5.0% Critical Hit Chance",
     "minor":  "-"
   },
   {
     "type":       "gear-mod",
     "vendor":     "DZ East 46th",
-    "name":       "Firearms Mod",
-    "stat":       "259 FA",
+    "name":       "Electronics Mod",
+    "stat":       "237",
     "price":      "DZ 21,362",
-    "attribute":  "2.0% Exotic Damage Resilience"
+    "attribute":  "3,208 Skill Power"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "DZ East 46th",
-    "name":       "Small Lazer Pointer",
+    "name":       "Osprey .45 Suppressor",
     "price":      "DZ 24,137",
-    "attributes": "16.0% Accuracy<br/>4.50% Reload Speed<br/>2.50% Stability"
+    "attributes": "14.50% Accuracy<br/>4.50% Optimal Range<br/>2.50% Critical Hit Chance"
   },
 
   {
     "type":     "weapon",
     "vendor":   "DZ East 42nd",
     "score":    "256",
-    "name":     "Burst Fire MP-5 A4",
+    "name":     "Custom L86 A2",
     "price":    "DZ 416,160",
-    "bonus":    "37% Critical Hit Damage",
-    "dmg":      "18.9k",
-    "rpm":      "800",
-    "mag":      "32",
-    "talent1":  "Adept",
-    "talent2":  "Unforgiving",
-    "talent3":  "Dominant"
+    "bonus":    "12% DMG to target out of cover",
+    "dmg":      "15.7k",
+    "rpm":      "610",
+    "mag":      "30",
+    "talent1":  "Determined",
+    "talent2":  "Competent",
+    "talent3":  "Brutal"
   },
   {
     "type":   "gear",
     "rarity": "header-he",
     "vendor": "DZ East 42nd",
     "score":  "256",
-    "name":   "Decisive Gloves",
-    "armor":  "909",
-    "price":  "DZ 221952",
+    "name":   "Robust Chest",
+    "armor":  "1,884",
+    "price":  "DZ 277,440",
     "fire":   "-",
-    "stam":   "-",
-    "elec":   "1225",
-    "major":  "5.0% Critical Hit Chance<br/>17% Critical Hit Damage<br/>888 SMG Damage",
-    "minor":  "-"
+    "stam":   "1,203",
+    "elec":   "-",
+    "major":  "7% Protection From Elites<br/>6% Damage to Elites",
+    "minor":  "56% Ammo Capacity"
   },
   {
     "type":       "gear-mod",
     "vendor":     "DZ East 42nd",
-    "name":       "Electronics Mod",
-    "stat":       "257 ELE",
+    "name":       "Firearms Mod",
+    "stat":       "263",
     "price":      "DZ 21,362",
-    "attribute":  "1% Critical Hit Chance"
+    "attribute":  "1,790 Health"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "DZ East 42nd",
-    "name":       "Quick Release Magazine",
-    "price":      "DZ 21362",
-    "attributes": "31.0% Reload Speed<br/>4.0% Critical Hit Damage<br/>5.50% Rate of Fire"
+    "name":       "Loud Vent Brake",
+    "price":      "DZ 24,137",
+    "attributes": "16% Critical Hit Damage<br/>2.50% Stability<br/>5.0% Optimal Range"
   },
 
   {
     "type":     "weapon",
     "vendor":   "DZ East 40th",
     "score":    "256",
-    "name":     "X-45",
-    "price":    "DZ 332,928",
+    "name":     "SASG-12",
+    "price":    "DZ 416,160",
     "bonus":    "-",
-    "dmg":      "15.3k",
-    "rpm":      "625",
-    "mag":      "10",
-    "talent1":  "Expert",
-    "talent2":  "Intense",
-    "talent3":  "-"
+    "dmg":      "85.6k",
+    "rpm":      "180",
+    "mag":      "7",
+    "talent1":  "Talented",
+    "talent2":  "Destructive",
+    "talent3":  "Meticulous"
   },
   {
     "type":   "gear",
     "rarity": "header-he",
     "vendor": "DZ East 40th",
     "score":  "256",
-    "name":   "Astute Gloves",
-    "armor":  "903",
-    "price":  "DZ 221,928",
+    "name":   "Resourceful Backpack",
+    "armor":  "1,158",
+    "price":  "DZ 277,440",
     "fire":   "-",
-    "stam":   "1187",
+    "stam":   "1,228",
     "elec":   "-",
-    "major":  "16% Critical Hit Damage<br/>8% Damage To Elites<br/>5.50% Critical Hit Chance",
-    "minor":  "17% Burn Resistance"
+    "major":  "12,737 Skill Power",
+    "minor":  "15% Burn Resistance"
   },
   {
     "type":       "gear-mod",
     "vendor":     "DZ East 40th",
-    "name":       "Stamina Mod",
-    "stat":       "243",
+    "name":       "Performance Mod",
+    "stat":       "-",
     "price":      "DZ 21,362",
-    "attribute":  "2,879 Skill Power"
+    "attribute":  "3.50% Turret Damage"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "DZ East 40th",
-    "name":       "Osprey .45 Suppressor",
+    "name":       "Angled Grip",
     "price":      "DZ 24,137",
-    "attributes": "15.0% Accuracy<br/>4.50% Optimal Range<br/>5.50% Headshot Damage"
+    "attributes": "12.0% Stability<br/>2.0% Accuracy<br/>4.0% Critical Hit Damage"
   },
 
   {
     "type":     "weapon",
     "vendor":   "DZ East 34th",
     "score":    "256",
-    "name":     "Super 90",
+    "name":     "Tactical SA-58",
     "price":    "DZ 416,160",
-    "bonus":    "297.0% Stagger",
-    "dmg":      "98.0k",
-    "rpm":      "150",
-    "mag":      "8",
-    "talent1":  "Destructive",
-    "talent2":  "Predatory",
-    "talent3":  "Capable"
+    "bonus":    "18% Enemy Armor Damage",
+    "dmg":      "23.7k",
+    "rpm":      "650",
+    "mag":      "20",
+    "talent1":  "Self-preserved",
+    "talent2":  "Accurate",
+    "talent3":  "Focused"
   },
   {
     "type":   "gear",
@@ -195,72 +195,72 @@
     "vendor": "DZ East 34th",
     "score":  "256",
     "name":   "Astute Gloves",
-    "armor":  "915",
+    "armor":  "962",
     "price":  "DZ 221,952",
-    "fire":   "1127",
-    "stam":   "-",
+    "fire":   "-",
+    "stam":   "1,135",
     "elec":   "-",
-    "major":  "1,230 Assault Rifle Damage<br/>8% Damage To Elites<br/>14% Critical Hit Damage",
+    "major":  "1,318 Pistol Damage<br/>14% Critical Hit Damage<br/>4% Health on Kill",
     "minor":  "-"
   },
   {
     "type":       "gear-mod",
     "vendor":     "DZ East 34th",
-    "name":       "Performance Mod",
-    "stat":       "-",
+    "name":       "Stamina Mod",
+    "stat":       "233",
     "price":      "DZ 21,362",
-    "attribute":  "3.50% Seeker Mine Damage"
+    "attribute":  "1,729 Health"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "DZ East 34th",
-    "name":       "Extended Magazine",
-    "price":      "DZ 21,362",
-    "attributes": "103.0% Magazine Size<br/>4% Critical Hit Damage<br/>4.50% Reload Speed"
+    "name":       "Handstop - Coyote",
+    "price":      "DZ 24,137",
+    "attributes": "28.0% Reload Speed<br/>4% Critical Hit Damage<br/>2.0% Accuracy"
   },
 
   {
     "type":     "weapon",
     "vendor":   "DZ East 31st",
     "score":    "256",
-    "name":     "Tactical Super 90 SBS",
+    "name":     "SRS A!",
     "price":    "DZ 416,160",
-    "bonus":    "319.0% Stagger",
-    "dmg":      "98.1k",
-    "rpm":      "150",
-    "mag":      "8",
-    "talent1":  "Dominant",
-    "talent2":  "Accurate",
-    "talent3":  "Commanding"
+    "bonus":    "150% Headshot Damage",
+    "dmg":      "105k",
+    "rpm":      "53",
+    "mag":      "7",
+    "talent1":  "Fierce",
+    "talent2":  "Deadly",
+    "talent3":  "Capable"
   },
   {
     "type":   "gear",
     "rarity": "header-he",
     "vendor": "DZ East 31st",
     "score":  "256",
-    "name":   "Enduring Mask",
-    "armor":  "898",
-    "price":  "DZ 249,696",
-    "fire":   "-",
-    "stam":   "1197",
+    "name":   "Cunning Gloves",
+    "armor":  "949",
+    "price":  "DZ 221,952",
+    "fire":   "1,167",
+    "stam":   "-",
     "elec":   "-",
-    "major":  "9% Damage to Elites",
-    "minor":  "14% Blind/Deaf Resistance"
+    "major":  "9% Damage to Elites<br/>14% Critical Hit Damage</br>1,264 Blind/Deaf Damage",
+    "minor":  "-"
   },
   {
     "type":       "gear-mod",
     "vendor":     "DZ East 31st",
-    "name":       "Performance Mod",
-    "stat":       "-",
+    "name":       "Stamina Mod",
+    "stat":       "251",
     "price":      "DZ 21,362",
-    "attribute":  "4.0% Seeker Mine Damage"
+    "attribute":  "259 Armor"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "DZ East 31st",
-    "name":       "Compensator",
+    "name":       "Small Grip",
     "price":      "DZ 24,137",
-    "attributes": "12.0% Stability<br/>4% Critical Hit Damage<br/>6.0% Headshot Damage"
+    "attributes": "19% Critical Hit Damage<br/>2.0% Accuracy<br/>5.0% Optimal Range"
   }
 
 ]

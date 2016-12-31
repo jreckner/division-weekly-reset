@@ -3,22 +3,22 @@
     "type":     "weapon",
     "vendor":   "The Crypt",
     "score":    "256",
-    "name":     "Tactical ACR",
+    "name":     "Military P416",
     "price":    "$ 1,669,320",
-    "bonus":    "21% Enemy Armor Damage",
-    "dmg":      "17.1K",
-    "rpm":      "760",
+    "bonus":    "23% Enemy Armor Damage",
+    "dmg":      "16.2k",
+    "rpm":      "750",
     "mag":      "30",
-    "talent1":  "Fierce",
-    "talent2":  "Predatory",
-    "talent3":  "Sustained"
+    "talent1":  "Prepared",
+    "talent2":  "Commanding",
+    "talent3":  "Adept"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "The Crypt",
-    "name":       "Vertical grip - Foliage Green",
-    "price":      "$ 174,722",
-    "attributes": "42.0% Optimal Range<br/>4.50% Reload Speed<br/>2.0% Accuracy"
+    "name":       "Extended magazine",
+    "price":      "$ 168,044",
+    "attributes": "93.5% Magazine Size<br/>3% Critical Hit Chance<br/>5.1% Rate of Fire"
   },
 
   {
@@ -26,46 +26,44 @@
     "rarity": "header-he",
     "vendor": "The Firewall",
     "score":  "256",
-    "name":   "Refreshed mask",
-    "armor":  "921",
-    "price":  "$ 1,001,592",
-    "fire":   "1262",
+    "name":   "Prosperous pads",
+    "armor":  "2,581",
+    "price":  "$ 890,304",
+    "fire":   "-",
     "stam":   "-",
-    "elec":   "-",
-    "major":  "4.0% Critical Hit Chance",
-    "minor":  "15% Blind/Deaf Resistance"
+    "elec":   "1191",
+    "major":  "1,118 Armor",
+    "minor":  "27% Burn Resistance<br/>10.5% Enemy Armor Damage<br/>55% Increased Kill XP"
   },
   {
-    "type":     "gear-mod",
-    "vendor":   "The Firewall",
-    "name":     "Prototype Stamina Mod",
-    "fire":     "-",
-    "stam":     "239",
-    "elec":     "-",
-    "price":    "$ 168,044",
-    "attribute":"3% Skill Haste"
+    "type":       "gear-mod",
+    "vendor":     "The Firewall",
+    "name":       "Performance Mod",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "6.5% Mobile Cover Health"
   },
 
   {
     "type":     "weapon",
     "vendor":   "The Grindhouse",
     "score":    "256",
-    "name":     "Covert SRS",
-    "price":    "$ 1,669,320",
-    "bonus":    "144% Headshot Damage",
-    "dmg":      "99.1k",
-    "rpm":      "53",
-    "mag":      "7",
-    "talent1":  "Adept",
-    "talent2":  "Predatory",
-    "talent3":  "Accurate"
+    "name":     "Rhino",
+    "price":    "$ 1,335,456",
+    "bonus":    "-",
+    "dmg":      "29.5k",
+    "rpm":      "350",
+    "mag":      "6",
+    "talent1":  "Expert",
+    "talent2":  "Unforgiving",
+    "talent3":  "-"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "The Grindhouse",
-    "name":       "T2 Micro Red Dot Sight -Tan",
-    "price":      "$ 174,722",
-    "attributes": "5.50% Headshot Damage<br/>4.50% Optimal Range<br/>2.50% Critcal Hit Chance<br/>"
+    "name":       "Quick release magazine",
+    "price":      "$ 168,044",
+    "attributes": "29.5% Reload Speed<br/>4% Critical Hit Damage<br/>4.6% Rate of Fire"
   },
 
   {
@@ -73,22 +71,22 @@
     "rarity": "header-he",
     "vendor": "Southpaw",
     "score":  "256",
-    "name":   "Recovered Holster",
-    "armor":  "990",
-    "price":  "$ 779,016",
-    "fire":   "1190",
-    "stam":   "1163",
-    "elec":   "1139",
-    "major":  "4% Protection from Elites<br/>",
-    "minor":  "-"
+    "name":   "Astute gloves",
+    "armor":  "852",
+    "price":  "$ 890,304",
+    "fire":   "-",
+    "stam":   "1265",
+    "elec":   "-",
+    "major":  "1,153 Assault Rifle Damage<br/>1,192 Pistol Damage<br/>6% Critical Hit Chance",
+    "minor":  ""
   },
   {
-    "type":      "gear-mod",
-    "vendor":    "Southpaw",
-    "name":      "Electronics Mod",
-    "stat":      "248",
-    "price":     "$ 168,044",
-    "attribute": "254 Armor"
+    "type":       "gear-mod",
+    "vendor":     "Southpaw",
+    "name":       "Electronics Mod",
+    "stat":       "248",
+    "price":      "$ 168,044",
+    "attribute":  "3% Signature Ability Resource Gain"
   },
 
   {
@@ -96,44 +94,44 @@
     "rarity": "header-he",
     "vendor": "The Ward",
     "score":  "256",
-    "name":   "Specialized Backpack",
-    "armor":  "1162",
-    "price":  "$ 1,112,880",
-    "fire":   "1225",
-    "stam":   "-",
-    "elec":   "-",
-    "major":  "12% Signature Ability Resource Gain",
-    "minor":  "16% Disrupt Resistance"
+    "name":   "Sturdy holster",
+    "armor":  "969",
+    "price":  "$ 779,016",
+    "fire":   "1202",
+    "stam":   "1140",
+    "elec":   "1261",
+    "major":  "644 Pistol Damage",
+    "minor":  ""
   },
   {
-    "type":      "gear-mod",
-    "vendor":    "The Ward",
-    "name":      "Prototype Performance Mod",
-    "stat":      "-",
-    "price":     "$ 168,044",
-    "attribute": "5.0% Pulse duration"
+    "type":       "gear-mod",
+    "vendor":     "The Ward",
+    "name":       "Performance Mod",
+    "stat":       "-",
+    "price":      "$ 168,044",
+    "attribute":  "5% First Aid self heal"
   },
 
   {
     "type":     "weapon",
     "vendor":   "The Last Call",
     "score":    "256",
-    "name":     "SRS A1",
+    "name":     "Classic M44 Carbine",
     "price":    "$ 1,669,320",
-    "bonus":    "155% Headshot Damage",
-    "dmg":      "98.9k",
-    "rpm":      "53",
-    "mag":      "7",
-    "talent1":  "Vicious",
-    "talent2":  "Harmful",
+    "bonus":    "142% Headshot Damage",
+    "dmg":      "111k",
+    "rpm":      "55",
+    "mag":      "5",
+    "talent1":  "Commanding",
+    "talent2":  "Predatory",
     "talent3":  "Talented"
   },
   {
     "type":       "weapon-mod",
     "vendor":     "The Last Call",
-    "name":       "T2 Micro red dot sight",
+    "name":       "Muzzle brake",
     "price":      "$ 174,722",
-    "attributes": "14.50% Accuracy<br/>2.50% Stability<br/>2.50% Critical Hit Chance"
+    "attributes": "13% Stability<br/>2% Accuracy<br/>2.5% Critical Hit Chance"
   },
 
   {
@@ -141,21 +139,22 @@
     "rarity": "header-he",
     "vendor": "Madison's Stand",
     "score":  "256",
-    "name":   "Rehabilitated Mask",
-    "armor":  "913",
-    "price":  "$ 1,001,592",
-    "fire":   "-",
+    "name":   "Technical backpack",
+    "armor":  "1,194",
+    "price":  "$ 1,112,880",
+    "fire":   "1149",
     "stam":   "-",
-    "elec":   "1149",
-    "major":  "4% Health on Kill",
-    "minor":  "7.50% Enemy Armor Damage"
+    "elec":   "-",
+    "major":  "12% Signature Ability Resource Gain",
+    "minor":  "16% Burn Resistance"
   },
   {
-    "type":      "gear-mod",
-    "vendor":    "Madison's Stand",
-    "name":      "Prototype Stamina Mod",
-    "stat":      "250",
-    "price":     "$ 168,044",
-    "attribute": "3% Skill Haste"
+    "type":       "gear-mod",
+    "vendor":     "Madison's Stand",
+    "name":       "Electronics Mod",
+    "stat":       "265",
+    "price":      "$ 168,044",
+    "attribute":  "1,636 Health"
   }
+
 ]
