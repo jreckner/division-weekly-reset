@@ -1,74 +1,50 @@
 [
   {
     "type":   "blueprint",
+    "name":   "Military M9",
     "score":  "256",
-    "name":   "Super 90",
-    "price":  "PxC 998"
+    "price":  "PxC 749"
   },
   {
     "type":   "blueprint",
+    "name":   "MG5",
     "score":  "256",
-    "name":   "ACR",
-    "price":  "PxC 1082"
+    "price":  "PxC 915"
   },
   {
     "type":   "blueprint",
-    "score":  "256",
     "name":   "Electronics Mask",
+    "score":  "256",
     "price":  "PxC 582"
   },
   {
     "type":   "blueprint",
+    "name":   "Firearms Gloves",
     "score":  "256",
-    "name":   "Holster",
-    "price":  "PxC 416"
+    "price":  "PxC 499"
   },
   {
     "type":   "blueprint",
+    "name":   "High Velocity Magazine<br/>Critical Hit Chance, Random, Random",
     "score":  "34",
-    "name":   "552 Holosight<br/>Critical Hit Chance, Random, Random",
-    "price":  "PxC 200"
+    "price":  "PxC 192"
   },
   {
     "type":   "blueprint",
-    "score":  "34",
     "name":   "Quick Release Magazine<br/>Reload Speed, Random, Random",
-    "price":  "PxC 192"
-  },
-  {
-    "type":   "blueprint",
     "score":  "34",
-    "name":   "Stamina Mod",
     "price":  "PxC 192"
   },
   {
     "type":   "blueprint",
+    "name":   "Performance Mod",
     "score":  "34",
-    "name":   "Fireamrs Mod",
     "price":  "PxC 192"
   },
   {
     "type":   "blueprint",
-    "score":  "229",
-    "name":   "Enhanced PP-19",
-    "price":  "PxC 574"
-  },
-  {
-    "type":   "blueprint",
-    "score":  "229",
-    "name":   "Double Barrel Shotgun",
-    "price":  "PxC 627"
-  },
-  {
-    "type":   "blueprint",
-    "score":  "204",
-    "name":   "Double Barrel Shotgun",
-    "price":  "PxC 371"
-  },
-  {
-    "type":   "blueprint",
-    "score":  "204",
-    "name":   "Black Market RPK-74 E",
-    "price":  "PxC 340"
+    "name":   "Firearms Mod",
+    "score":  "34",
+    "price":  "PxC 192"
   }
 ]
